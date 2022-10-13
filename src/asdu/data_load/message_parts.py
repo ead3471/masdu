@@ -697,14 +697,3 @@ class Message:
     def is_prev_message_exist(self, message_time_stamp: datetime, last_message_time_stamp: datetime) -> bool:
         return self.header.scale.get_prev_store_time(message_time_stamp) <= last_message_time_stamp
 
-
-if __name__ == '__main__':
-    files = glob.glob("data/*")
-    print(files)
-
-    # header = Header()
-    # data = [DataRecord(), DataRecord(), DataRecord()]
-    # message = Message(header, data)
-    # message.header.generated_at = datetime.now()
-    #
-    # print(message.get_file_name())

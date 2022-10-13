@@ -1,0 +1,151 @@
+2022-01-25 09:13:46.244 DEBUG: Get setup message from file:C:/Projects/Python/fast_tools_python/src/asdu/data_load/setup/1M_PL_data.xml
+2022-01-25 09:13:46.249 DEBUG: Message created:P_BLG.P1M.PL.V1
+2022-01-25 09:13:50.298 DEBUG: ========Process message with  template_id = P_BLG.P1M.PL.V1 ============
+2022-01-25 09:13:55.933 DEBUG: last stored msg time stamp = 2021-11-25T10:05:00+03:00 next msg timestamp: 2021-12-25T10:05:00+03:00
+2022-01-25 09:13:57.016 DEBUG: Prepare message: P_BLG.P1M.PL.V1 timestamp=2021-12-25T10:05:00+03:00
+2022-01-25 09:13:57.018 DEBUG: Update by history aggr values:P_BLG.P1M.PL.V1 
+time_stamp = 2021-12-25T10:05:00+03:00 
+ref_time = 2022-01-01T10:00:00+03:00 
+archive_retr_time = 2021-12-25T16:00:00+03:00 
+2022-01-25 09:13:57.028 ERROR: Error read aggr history value for name = ASDU_ESG.PLAN.resources value = 0.0at time = 2021-12-25T16:00:00+03:00
+Traceback (most recent call last):
+  File "C:\Projects\Python\fast_tools_python\src\asdu\data_load\message_parts.py", line 335, in read_aggr_history_value
+    limit_in_seconds=60)
+  File "C:\Projects\Python\fast_tools_python\src\asdu\data_load\ft_history.py", line 56, in read_history_aggregated_value
+    return self.read_history_value(ft_conn, time_stamp, self.aggr_history_group, limit_in_seconds)
+  File "C:\Projects\Python\fast_tools_python\src\asdu\data_load\ft_history.py", line 44, in read_history_value
+    dss.getItemHistory(ft_conn, self.item_name, history_group, start_time, end_time, 1))
+dss.error: ('VIS-W-NOTFOUND', 'Record not found')
+2022-01-25 09:13:57.033 ERROR: Error read aggr history value for name = ASDU_ESG.PLAN.input_192 value = 0.0at time = 2021-12-25T16:00:00+03:00
+Traceback (most recent call last):
+  File "C:\Projects\Python\fast_tools_python\src\asdu\data_load\message_parts.py", line 335, in read_aggr_history_value
+    limit_in_seconds=60)
+  File "C:\Projects\Python\fast_tools_python\src\asdu\data_load\ft_history.py", line 56, in read_history_aggregated_value
+    return self.read_history_value(ft_conn, time_stamp, self.aggr_history_group, limit_in_seconds)
+  File "C:\Projects\Python\fast_tools_python\src\asdu\data_load\ft_history.py", line 44, in read_history_value
+    dss.getItemHistory(ft_conn, self.item_name, history_group, start_time, end_time, 1))
+dss.error: ('VIS-W-NOTFOUND', 'Record not found')
+2022-01-25 09:13:57.034 ERROR: Error read aggr history value for name = ASDU_ESG.PLAN.distribution value = 0.0at time = 2021-12-25T16:00:00+03:00
+Traceback (most recent call last):
+  File "C:\Projects\Python\fast_tools_python\src\asdu\data_load\message_parts.py", line 335, in read_aggr_history_value
+    limit_in_seconds=60)
+  File "C:\Projects\Python\fast_tools_python\src\asdu\data_load\ft_history.py", line 56, in read_history_aggregated_value
+    return self.read_history_value(ft_conn, time_stamp, self.aggr_history_group, limit_in_seconds)
+  File "C:\Projects\Python\fast_tools_python\src\asdu\data_load\ft_history.py", line 44, in read_history_value
+    dss.getItemHistory(ft_conn, self.item_name, history_group, start_time, end_time, 1))
+dss.error: ('VIS-W-NOTFOUND', 'Record not found')
+2022-01-25 09:13:57.036 ERROR: Error read aggr history value for name = ASDU_ESG.PLAN.to_TES value = 0.0at time = 2021-12-25T16:00:00+03:00
+Traceback (most recent call last):
+  File "C:\Projects\Python\fast_tools_python\src\asdu\data_load\message_parts.py", line 335, in read_aggr_history_value
+    limit_in_seconds=60)
+  File "C:\Projects\Python\fast_tools_python\src\asdu\data_load\ft_history.py", line 56, in read_history_aggregated_value
+    return self.read_history_value(ft_conn, time_stamp, self.aggr_history_group, limit_in_seconds)
+  File "C:\Projects\Python\fast_tools_python\src\asdu\data_load\ft_history.py", line 44, in read_history_value
+    dss.getItemHistory(ft_conn, self.item_name, history_group, start_time, end_time, 1))
+dss.error: ('VIS-W-NOTFOUND', 'Record not found')
+2022-01-25 09:13:57.038 ERROR: Error read aggr history value for name = ASDU_ESG.PLAN.ownNeeds value = 0.0at time = 2021-12-25T16:00:00+03:00
+Traceback (most recent call last):
+  File "C:\Projects\Python\fast_tools_python\src\asdu\data_load\message_parts.py", line 335, in read_aggr_history_value
+    limit_in_seconds=60)
+  File "C:\Projects\Python\fast_tools_python\src\asdu\data_load\ft_history.py", line 56, in read_history_aggregated_value
+    return self.read_history_value(ft_conn, time_stamp, self.aggr_history_group, limit_in_seconds)
+  File "C:\Projects\Python\fast_tools_python\src\asdu\data_load\ft_history.py", line 44, in read_history_value
+    dss.getItemHistory(ft_conn, self.item_name, history_group, start_time, end_time, 1))
+dss.error: ('VIS-W-NOTFOUND', 'Record not found')
+2022-01-25 09:13:57.039 ERROR: Error read aggr history value for name = ASDU_ESG.PLAN.fuelGasHPress value = 0.0at time = 2021-12-25T16:00:00+03:00
+Traceback (most recent call last):
+  File "C:\Projects\Python\fast_tools_python\src\asdu\data_load\message_parts.py", line 335, in read_aggr_history_value
+    limit_in_seconds=60)
+  File "C:\Projects\Python\fast_tools_python\src\asdu\data_load\ft_history.py", line 56, in read_history_aggregated_value
+    return self.read_history_value(ft_conn, time_stamp, self.aggr_history_group, limit_in_seconds)
+  File "C:\Projects\Python\fast_tools_python\src\asdu\data_load\ft_history.py", line 44, in read_history_value
+    dss.getItemHistory(ft_conn, self.item_name, history_group, start_time, end_time, 1))
+dss.error: ('VIS-W-NOTFOUND', 'Record not found')
+2022-01-25 09:13:57.041 ERROR: Error read aggr history value for name = ASDU_ESG.PLAN.sediment value = 0.0at time = 2021-12-25T16:00:00+03:00
+Traceback (most recent call last):
+  File "C:\Projects\Python\fast_tools_python\src\asdu\data_load\message_parts.py", line 335, in read_aggr_history_value
+    limit_in_seconds=60)
+  File "C:\Projects\Python\fast_tools_python\src\asdu\data_load\ft_history.py", line 56, in read_history_aggregated_value
+    return self.read_history_value(ft_conn, time_stamp, self.aggr_history_group, limit_in_seconds)
+  File "C:\Projects\Python\fast_tools_python\src\asdu\data_load\ft_history.py", line 44, in read_history_value
+    dss.getItemHistory(ft_conn, self.item_name, history_group, start_time, end_time, 1))
+dss.error: ('VIS-W-NOTFOUND', 'Record not found')
+2022-01-25 09:13:57.042 ERROR: Error read aggr history value for name = ASDU_ESG.PLAN.output_190 value = 0.0at time = 2021-12-25T16:00:00+03:00
+Traceback (most recent call last):
+  File "C:\Projects\Python\fast_tools_python\src\asdu\data_load\message_parts.py", line 335, in read_aggr_history_value
+    limit_in_seconds=60)
+  File "C:\Projects\Python\fast_tools_python\src\asdu\data_load\ft_history.py", line 56, in read_history_aggregated_value
+    return self.read_history_value(ft_conn, time_stamp, self.aggr_history_group, limit_in_seconds)
+  File "C:\Projects\Python\fast_tools_python\src\asdu\data_load\ft_history.py", line 44, in read_history_value
+    dss.getItemHistory(ft_conn, self.item_name, history_group, start_time, end_time, 1))
+dss.error: ('VIS-W-NOTFOUND', 'Record not found')
+2022-01-25 09:13:57.043 ERROR: Error read aggr history value for name = ASDU_ESG.PLAN.helium value = 0.0at time = 2021-12-25T16:00:00+03:00
+Traceback (most recent call last):
+  File "C:\Projects\Python\fast_tools_python\src\asdu\data_load\message_parts.py", line 335, in read_aggr_history_value
+    limit_in_seconds=60)
+  File "C:\Projects\Python\fast_tools_python\src\asdu\data_load\ft_history.py", line 56, in read_history_aggregated_value
+    return self.read_history_value(ft_conn, time_stamp, self.aggr_history_group, limit_in_seconds)
+  File "C:\Projects\Python\fast_tools_python\src\asdu\data_load\ft_history.py", line 44, in read_history_value
+    dss.getItemHistory(ft_conn, self.item_name, history_group, start_time, end_time, 1))
+dss.error: ('VIS-W-NOTFOUND', 'Record not found')
+2022-01-25 09:13:57.044 ERROR: Error read aggr history value for name = ASDU_ESG.PLAN.ethane value = 0.0at time = 2021-12-25T16:00:00+03:00
+Traceback (most recent call last):
+  File "C:\Projects\Python\fast_tools_python\src\asdu\data_load\message_parts.py", line 335, in read_aggr_history_value
+    limit_in_seconds=60)
+  File "C:\Projects\Python\fast_tools_python\src\asdu\data_load\ft_history.py", line 56, in read_history_aggregated_value
+    return self.read_history_value(ft_conn, time_stamp, self.aggr_history_group, limit_in_seconds)
+  File "C:\Projects\Python\fast_tools_python\src\asdu\data_load\ft_history.py", line 44, in read_history_value
+    dss.getItemHistory(ft_conn, self.item_name, history_group, start_time, end_time, 1))
+dss.error: ('VIS-W-NOTFOUND', 'Record not found')
+2022-01-25 09:13:57.046 ERROR: Error read aggr history value for name = ASDU_ESG.PLAN.PF value = 0.0at time = 2021-12-25T16:00:00+03:00
+Traceback (most recent call last):
+  File "C:\Projects\Python\fast_tools_python\src\asdu\data_load\message_parts.py", line 335, in read_aggr_history_value
+    limit_in_seconds=60)
+  File "C:\Projects\Python\fast_tools_python\src\asdu\data_load\ft_history.py", line 56, in read_history_aggregated_value
+    return self.read_history_value(ft_conn, time_stamp, self.aggr_history_group, limit_in_seconds)
+  File "C:\Projects\Python\fast_tools_python\src\asdu\data_load\ft_history.py", line 44, in read_history_value
+    dss.getItemHistory(ft_conn, self.item_name, history_group, start_time, end_time, 1))
+dss.error: ('ITH-E-NO_ADM_UPD', 'Item not defined in group, or group not specified')
+2022-01-25 09:13:57.047 ERROR: Error read aggr history value for name = ASDU_ESG.PLAN.BF value = 0.0at time = 2021-12-25T16:00:00+03:00
+Traceback (most recent call last):
+  File "C:\Projects\Python\fast_tools_python\src\asdu\data_load\message_parts.py", line 335, in read_aggr_history_value
+    limit_in_seconds=60)
+  File "C:\Projects\Python\fast_tools_python\src\asdu\data_load\ft_history.py", line 56, in read_history_aggregated_value
+    return self.read_history_value(ft_conn, time_stamp, self.aggr_history_group, limit_in_seconds)
+  File "C:\Projects\Python\fast_tools_python\src\asdu\data_load\ft_history.py", line 44, in read_history_value
+    dss.getItemHistory(ft_conn, self.item_name, history_group, start_time, end_time, 1))
+dss.error: ('ITH-E-NO_ADM_UPD', 'Item not defined in group, or group not specified')
+2022-01-25 09:13:57.049 ERROR: Error read aggr history value for name = ASDU_ESG.PLAN.PBT value = 0.0at time = 2021-12-25T16:00:00+03:00
+Traceback (most recent call last):
+  File "C:\Projects\Python\fast_tools_python\src\asdu\data_load\message_parts.py", line 335, in read_aggr_history_value
+    limit_in_seconds=60)
+  File "C:\Projects\Python\fast_tools_python\src\asdu\data_load\ft_history.py", line 56, in read_history_aggregated_value
+    return self.read_history_value(ft_conn, time_stamp, self.aggr_history_group, limit_in_seconds)
+  File "C:\Projects\Python\fast_tools_python\src\asdu\data_load\ft_history.py", line 44, in read_history_value
+    dss.getItemHistory(ft_conn, self.item_name, history_group, start_time, end_time, 1))
+dss.error: ('ITH-E-NO_ADM_UPD', 'Item not defined in group, or group not specified')
+2022-01-25 09:13:57.050 ERROR: Error read aggr history value for name = ASDU_ESG.PLAN.PGF value = 0.0at time = 2021-12-25T16:00:00+03:00
+Traceback (most recent call last):
+  File "C:\Projects\Python\fast_tools_python\src\asdu\data_load\message_parts.py", line 335, in read_aggr_history_value
+    limit_in_seconds=60)
+  File "C:\Projects\Python\fast_tools_python\src\asdu\data_load\ft_history.py", line 56, in read_history_aggregated_value
+    return self.read_history_value(ft_conn, time_stamp, self.aggr_history_group, limit_in_seconds)
+  File "C:\Projects\Python\fast_tools_python\src\asdu\data_load\ft_history.py", line 44, in read_history_value
+    dss.getItemHistory(ft_conn, self.item_name, history_group, start_time, end_time, 1))
+dss.error: ('ITH-E-NO_ADM_UPD', 'Item not defined in group, or group not specified')
+2022-01-25 09:13:57.051 ERROR: Error read aggr history value for name = ASDU_ESG.PLAN.degass_SHFLU value = 0.0at time = 2021-12-25T16:00:00+03:00
+Traceback (most recent call last):
+  File "C:\Projects\Python\fast_tools_python\src\asdu\data_load\message_parts.py", line 335, in read_aggr_history_value
+    limit_in_seconds=60)
+  File "C:\Projects\Python\fast_tools_python\src\asdu\data_load\ft_history.py", line 56, in read_history_aggregated_value
+    return self.read_history_value(ft_conn, time_stamp, self.aggr_history_group, limit_in_seconds)
+  File "C:\Projects\Python\fast_tools_python\src\asdu\data_load\ft_history.py", line 44, in read_history_value
+    dss.getItemHistory(ft_conn, self.item_name, history_group, start_time, end_time, 1))
+dss.error: ('VIS-W-NOTFOUND', 'Record not found')
+2022-01-25 09:13:57.554 DEBUG: Write message P_BLG.P1M.PL.V1 to file: C:/Projects/Python/fast_tools_python/src/asdu/data_load/data/MONTH_PLAN/P_BLG.P1M.PL.V1_2021_12_25_10_05_00.xml
+2022-01-25 12:47:11.788 DEBUG: Get setup message from file:C:/Projects/Python/fast_tools_python/src/asdu/data_load/setup/1M_PL_data.xml
+2022-01-25 12:47:11.790 DEBUG: Message created:P_BLG.P1M.PL.V1
+2022-01-25 12:47:11.796 DEBUG: ========Process message with  template_id = P_BLG.P1M.PL.V1 ============
+2022-01-25 12:48:39.170 DEBUG: Get setup message from file:C:/Projects/Python/fast_tools_python/src/asdu/data_load/setup/1M_PL_data.xml
+2022-01-25 12:48:39.171 DEBUG: Message created:P_BLG.P1M.PL.V1
+2022-01-25 12:48:39.173 DEBUG: ========Process message with  template_id = P_BLG.P1M.PL.V1 ============

@@ -1,0 +1,928 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BusinessMessage>
+   <HeaderSection>
+      <Sender id="ГП Переработка Благовещенск"/>
+      <Receiver id="М АСДУ ЕСГ"/>
+      <Generated at="2022-01-20T10:00:00+03:00"/>
+      <ReferenceTime time="2022-01-19T10:00:00+03:00"/>
+      <Scale>PT24H</Scale>
+      <Template id="P_BLG.PT24H.RT.V1"/>
+      <FullName>DMS</FullName>
+   </HeaderSection>
+   <DataSection>
+      <Identifier type="ASDU_ESG">89F0B0EB954E2AF2E0530F93380A919E</Identifier>
+      <ParameterFullName>ГП ПРБ Благовещенск.ДКС АмГПЗ 1-110.КЦ.Расход газа</ParameterFullName>
+      <Value>0.000</Value>
+      <Dimension>тыс. м3</Dimension>
+   </DataSection>
+   <DataSection>
+      <Identifier type="ASDU_ESG">89F12D410BAD1BA8E0530E93380AFBAD</Identifier>
+      <ParameterFullName>ГП ПРБ Благовещенск.ДКС АмГПЗ 1-110.КЦ.Расход топливного газа</ParameterFullName>
+      <Value>0.000</Value>
+      <Dimension>тыс. м3</Dimension>
+   </DataSection>
+   <DataSection>
+      <Identifier type="ASDU_ESG">89F13F40A1282400E0530F93380A7BD5</Identifier>
+      <ParameterFullName>ГП ПРБ Благовещенск.ДКС АмГПЗ 1-110.КЦ.ГПА 1-110A.Расход газа</ParameterFullName>
+      <Value>0.000</Value>
+      <Dimension>тыс. м3</Dimension>
+   </DataSection>
+   <DataSection>
+      <Identifier type="ASDU_ESG">89F13F40A1322400E0530F93380A7BD5</Identifier>
+      <ParameterFullName>ГП ПРБ Благовещенск.ДКС АмГПЗ 1-110.КЦ.ГПА 1-110A.Расход топливного газа
+            </ParameterFullName>
+      <Value>0.000</Value>
+      <Dimension>тыс. м3</Dimension>
+   </DataSection>
+   <DataSection>
+      <Identifier type="ASDU_ESG">89F1CF4CF84B3324E0530F93380AFD25</Identifier>
+      <ParameterFullName>ГП ПРБ Благовещенск.ДКС АмГПЗ 1-110.КЦ.ГПА 1-110B.Расход газа</ParameterFullName>
+      <Value>0.000</Value>
+      <Dimension>тыс. м3</Dimension>
+   </DataSection>
+   <DataSection>
+      <Identifier type="ASDU_ESG">89F1CF4CF8553324E0530F93380AFD25</Identifier>
+      <ParameterFullName>ГП ПРБ Благовещенск.ДКС АмГПЗ 1-110.КЦ.ГПА 1-110B.Расход топливного газа
+            </ParameterFullName>
+      <Value>0.000</Value>
+      <Dimension>тыс. м3</Dimension>
+   </DataSection>
+   <DataSection>
+      <Identifier type="ASDU_ESG">C65B3C76CB4C7BACE0530F93380A8CC1</Identifier>
+      <ParameterFullName>ГП ПРБ Благовещенск.ДКС АмГПЗ 2-110.КЦ.Расход газа</ParameterFullName>
+      <Value>0.000</Value>
+      <Dimension>тыс. м3</Dimension>
+   </DataSection>
+   <DataSection>
+      <Identifier type="ASDU_ESG">C65B3C76CB1E7BACE0530F93380A8CC1</Identifier>
+      <ParameterFullName>ГП ПРБ Благовещенск.ДКС АмГПЗ 2-110.КЦ.Расход топливного газа</ParameterFullName>
+      <Value>0.000</Value>
+      <Dimension>тыс. м3</Dimension>
+   </DataSection>
+   <DataSection>
+      <Identifier type="ASDU_ESG">89F1CF4CF8B53324E0530F93380AFD25</Identifier>
+      <ParameterFullName>ГП ПРБ Благовещенск.ДКС АмГПЗ 2-110.КЦ.ГПА 2-110A.Расход газа</ParameterFullName>
+      <Value>0.000</Value>
+      <Dimension>тыс. м3</Dimension>
+   </DataSection>
+   <DataSection>
+      <Identifier type="ASDU_ESG">89F1CF4CF8BF3324E0530F93380AFD25</Identifier>
+      <ParameterFullName>ГП ПРБ Благовещенск.ДКС АмГПЗ 2-110.КЦ.ГПА 2-110A.Расход топливного газа
+            </ParameterFullName>
+      <Value>0.000</Value>
+      <Dimension>тыс. м3</Dimension>
+   </DataSection>
+   <DataSection>
+      <Identifier type="ASDU_ESG">89F1D54FC0F256B4E0530E93380A46E3</Identifier>
+      <ParameterFullName>ГП ПРБ Благовещенск.ДКС АмГПЗ 2-110.КЦ.ГПА 2-110B.Расход газа</ParameterFullName>
+      <Value>0.000</Value>
+      <Dimension>тыс. м3</Dimension>
+   </DataSection>
+   <DataSection>
+      <Identifier type="ASDU_ESG">89F1D54FC0FC56B4E0530E93380A46E3</Identifier>
+      <ParameterFullName>ГП ПРБ Благовещенск.ДКС АмГПЗ 2-110.КЦ.ГПА 2-110B.Расход топливного газа
+            </ParameterFullName>
+      <Value>0.000</Value>
+      <Dimension>тыс. м3</Dimension>
+   </DataSection>
+   <DataSection>
+      <Identifier type="ASDU_ESG">C65BBF4EF18B0C18E0530F93380AB227</Identifier>
+      <ParameterFullName>ГП ПРБ Благовещенск.ДКС АмГПЗ 3-110.КЦ.Расход газа</ParameterFullName>
+      <Value>0.000</Value>
+      <Dimension>тыс. м3</Dimension>
+   </DataSection>
+   <DataSection>
+      <Identifier type="ASDU_ESG">C65BBF4EF1B50C18E0530F93380AB227</Identifier>
+      <ParameterFullName>ГП ПРБ Благовещенск.ДКС АмГПЗ 3-110.КЦ.Расход топливного газа</ParameterFullName>
+      <Value>0.000</Value>
+      <Dimension>тыс. м3</Dimension>
+   </DataSection>
+   <DataSection>
+      <Identifier type="ASDU_ESG">89F1CF4CF9113324E0530F93380AFD25</Identifier>
+      <ParameterFullName>ГП ПРБ Благовещенск.ДКС АмГПЗ 3-110.КЦ.ГПА 3-110A.Расход газа</ParameterFullName>
+      <Value>0.000</Value>
+      <Dimension>тыс. м3</Dimension>
+   </DataSection>
+   <DataSection>
+      <Identifier type="ASDU_ESG">89F1CF4CF91B3324E0530F93380AFD25</Identifier>
+      <ParameterFullName>ГП ПРБ Благовещенск.ДКС АмГПЗ 3-110.КЦ.ГПА 3-110A.Расход топливного газа
+            </ParameterFullName>
+      <Value>0.000</Value>
+      <Dimension>тыс. м3</Dimension>
+   </DataSection>
+   <DataSection>
+      <Identifier type="ASDU_ESG">89F1CF4CF96B3324E0530F93380AFD25</Identifier>
+      <ParameterFullName>ГП ПРБ Благовещенск.ДКС АмГПЗ 3-110.КЦ.ГПА 3-110B.Расход газа</ParameterFullName>
+      <Value>0.000</Value>
+      <Dimension>тыс. м3</Dimension>
+   </DataSection>
+   <DataSection>
+      <Identifier type="ASDU_ESG">89F1CF4CF9753324E0530F93380AFD25</Identifier>
+      <ParameterFullName>ГП ПРБ Благовещенск.ДКС АмГПЗ 3-110.КЦ.ГПА 3-110B.Расход топливного газа
+            </ParameterFullName>
+      <Value>0.000</Value>
+      <Dimension>тыс. м3</Dimension>
+   </DataSection>
+   <DataSection>
+      <Identifier type="ASDU_ESG">C65CEEC27D071231E0530F93380AAEAE</Identifier>
+      <ParameterFullName>ГП ПРБ Благовещенск.ДКС АмГПЗ 4-110.КЦ.Расход газа</ParameterFullName>
+      <Value>0.000</Value>
+      <Dimension>тыс. м3</Dimension>
+   </DataSection>
+   <DataSection>
+      <Identifier type="ASDU_ESG">C65CEEC27D311231E0530F93380AAEAE</Identifier>
+      <ParameterFullName>ГП ПРБ Благовещенск.ДКС АмГПЗ 4-110.КЦ.Расход топливного газа</ParameterFullName>
+      <Value>0.000</Value>
+      <Dimension>тыс. м3</Dimension>
+   </DataSection>
+   <DataSection>
+      <Identifier type="ASDU_ESG">89F1CF4CF9C53324E0530F93380AFD25</Identifier>
+      <ParameterFullName>ГП ПРБ Благовещенск.ДКС АмГПЗ 4-110.КЦ.ГПА 4-110A.Расход газа</ParameterFullName>
+      <Value>0.000</Value>
+      <Dimension>тыс. м3</Dimension>
+   </DataSection>
+   <DataSection>
+      <Identifier type="ASDU_ESG">89F1CF4CF9CF3324E0530F93380AFD25</Identifier>
+      <ParameterFullName>ГП ПРБ Благовещенск.ДКС АмГПЗ 4-110.КЦ.ГПА 4-110A.Расход топливного газа
+            </ParameterFullName>
+      <Value>0.000</Value>
+      <Dimension>тыс. м3</Dimension>
+   </DataSection>
+   <DataSection>
+      <Identifier type="ASDU_ESG">89F1CF4CFA203324E0530F93380AFD25</Identifier>
+      <ParameterFullName>ГП ПРБ Благовещенск.ДКС АмГПЗ 4-110.КЦ.ГПА 4-110B.Расход газа</ParameterFullName>
+      <Value>0.000</Value>
+      <Dimension>тыс. м3</Dimension>
+   </DataSection>
+   <DataSection>
+      <Identifier type="ASDU_ESG">89F1CF4CFA2A3324E0530F93380AFD25</Identifier>
+      <ParameterFullName>ГП ПРБ Благовещенск.ДКС АмГПЗ 4-110.КЦ.ГПА 4-110B.Расход топливного газа
+            </ParameterFullName>
+      <Value>0.000</Value>
+      <Dimension>тыс. м3</Dimension>
+   </DataSection>
+   <DataSection>
+      <Identifier type="ASDU_ESG">C65CD3FF5F622BF5E0530F93380A82F3</Identifier>
+      <ParameterFullName>ГП ПРБ Благовещенск.ДКС АмГПЗ 5-110.КЦ.Расход газа</ParameterFullName>
+      <Value>0.000</Value>
+      <Dimension>тыс. м3</Dimension>
+   </DataSection>
+   <DataSection>
+      <Identifier type="ASDU_ESG">C65CD3FF5F8C2BF5E0530F93380A82F3</Identifier>
+      <ParameterFullName>ГП ПРБ Благовещенск.ДКС АмГПЗ 5-110.КЦ.Расход топливного газа</ParameterFullName>
+      <Value>0.000</Value>
+      <Dimension>тыс. м3</Dimension>
+   </DataSection>
+   <DataSection>
+      <Identifier type="ASDU_ESG">89F1CF4CFA7B3324E0530F93380AFD25</Identifier>
+      <ParameterFullName>ГП ПРБ Благовещенск.ДКС АмГПЗ 5-110.КЦ.ГПА 5-110A.Расход газа</ParameterFullName>
+      <Value>0.000</Value>
+      <Dimension>тыс. м3</Dimension>
+   </DataSection>
+   <DataSection>
+      <Identifier type="ASDU_ESG">89F1CF4CFA853324E0530F93380AFD25</Identifier>
+      <ParameterFullName>ГП ПРБ Благовещенск.ДКС АмГПЗ 5-110.КЦ.ГПА 5-110A.Расход топливного газа
+            </ParameterFullName>
+      <Value>0.000</Value>
+      <Dimension>тыс. м3</Dimension>
+   </DataSection>
+   <DataSection>
+      <Identifier type="ASDU_ESG">89F1CF4CFAD53324E0530F93380AFD25</Identifier>
+      <ParameterFullName>ГП ПРБ Благовещенск.ДКС АмГПЗ 5-110.КЦ.ГПА 5-110B.Расход газа</ParameterFullName>
+      <Value>0.000</Value>
+      <Dimension>тыс. м3</Dimension>
+   </DataSection>
+   <DataSection>
+      <Identifier type="ASDU_ESG">89F1CF4CFADF3324E0530F93380AFD25</Identifier>
+      <ParameterFullName>ГП ПРБ Благовещенск.ДКС АмГПЗ 5-110.КЦ.ГПА 5-110B.Расход топливного газа
+            </ParameterFullName>
+      <Value>0.000</Value>
+      <Dimension>тыс. м3</Dimension>
+   </DataSection>
+   <DataSection>
+      <Identifier type="ASDU_ESG">C65CEEC27E0C1231E0530F93380AAEAE</Identifier>
+      <ParameterFullName>ГП ПРБ Благовещенск.ДКС АмГПЗ 6-110.КЦ.Расход газа</ParameterFullName>
+      <Value>0.000</Value>
+      <Dimension>тыс. м3</Dimension>
+   </DataSection>
+   <DataSection>
+      <Identifier type="ASDU_ESG">C65CEEC27E3E1231E0530F93380AAEAE</Identifier>
+      <ParameterFullName>ГП ПРБ Благовещенск.ДКС АмГПЗ 6-110.КЦ.Расход топливного газа</ParameterFullName>
+      <Value>0.000</Value>
+      <Dimension>тыс. м3</Dimension>
+   </DataSection>
+   <DataSection>
+      <Identifier type="ASDU_ESG">89F1CF4CFB313324E0530F93380AFD25</Identifier>
+      <ParameterFullName>ГП ПРБ Благовещенск.ДКС АмГПЗ 6-110.КЦ.ГПА 6-110A.Расход газа</ParameterFullName>
+      <Value>0.000</Value>
+      <Dimension>тыс. м3</Dimension>
+   </DataSection>
+   <DataSection>
+      <Identifier type="ASDU_ESG">89F1CF4CFB3B3324E0530F93380AFD25</Identifier>
+      <ParameterFullName>ГП ПРБ Благовещенск.ДКС АмГПЗ 6-110.КЦ.ГПА 6-110A.Расход топливного газа
+            </ParameterFullName>
+      <Value>0.000</Value>
+      <Dimension>тыс. м3</Dimension>
+   </DataSection>
+   <DataSection>
+      <Identifier type="ASDU_ESG">89F0689E8AE06FE1E0530E93380AC213</Identifier>
+      <ParameterFullName>ГП ПРБ Благовещенск.ДКС АмГПЗ 6-110.КЦ.ГПА 6-110B.Расход газа</ParameterFullName>
+      <Value>0.000</Value>
+      <Dimension>тыс. м3</Dimension>
+   </DataSection>
+   <DataSection>
+      <Identifier type="ASDU_ESG">89F0689E8AEA6FE1E0530E93380AC213</Identifier>
+      <ParameterFullName>ГП ПРБ Благовещенск.ДКС АмГПЗ 6-110.КЦ.ГПА 6-110B.Расход топливного газа
+            </ParameterFullName>
+      <Value>0.000</Value>
+      <Dimension>тыс. м3</Dimension>
+   </DataSection>
+   <DataSection>
+      <Identifier type="ASDU_ESG">C5FABF75A1682904E0530F93380A8485</Identifier>
+      <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Группа входов от МГ СС (газ).Поступление сырья (тыс.м3)
+            </ParameterFullName>
+      <Value>0.000</Value>
+      <Dimension>тыс. м3</Dimension>
+   </DataSection>
+   <DataSection>
+      <Identifier type="ASDU_ESG">80313AAE15E636AEE0530F93380AB898</Identifier>
+      <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Вход на УУ 1-192 (газ).Поступление сырья (тыс.м3)
+            </ParameterFullName>
+      <Value>0.000</Value>
+      <Dimension>тыс. м3</Dimension>
+   </DataSection>
+   <DataSection>
+      <Identifier type="ASDU_ESG">80314294B19B4E84E0530F93380A9012</Identifier>
+      <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Вход на УУ 1-192 (газ).Давление сырья</ParameterFullName>
+      <Value>0.0</Value>
+      <Dimension>кг/см2</Dimension>
+   </DataSection>
+   <DataSection>
+      <Identifier type="ASDU_ESG">80314294B1FC4E84E0530F93380A9012</Identifier>
+      <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Вход на УУ 1-192 (газ).Температура сырья</ParameterFullName>
+      <Value>0.0</Value>
+      <Dimension>C</Dimension>
+   </DataSection>
+   <DataSection>
+      <Identifier type="ASDU_ESG">89EF86C752320655E0530F93380A96EA</Identifier>
+      <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Вход на УУ 1-192 (газ).ФХП(н).Конц. Азота</ParameterFullName>
+      <Value>0.000</Value>
+      <Dimension>%</Dimension>
+   </DataSection>
+   <DataSection>
+      <Identifier type="ASDU_ESG">89EF86C752280655E0530F93380A96EA</Identifier>
+      <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Вход на УУ 1-192 (газ).ФХП(н).Конц. Диоксида углерода
+            </ParameterFullName>
+      <Value>0.000</Value>
+      <Dimension>%</Dimension>
+   </DataSection>
+   <DataSection>
+      <Identifier type="ASDU_ESG">89EF86C7523C0655E0530F93380A96EA</Identifier>
+      <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Вход на УУ 1-192 (газ).ФХП(н).Конц. Кислорода
+            </ParameterFullName>
+      <Value>0.00</Value>
+   </DataSection>
+   <DataSection>
+      <Identifier type="ASDU_ESG">89EF84660CF671C3E0530F93380A3380</Identifier>
+      <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Вход на УУ 1-192 (газ).ФХП(н).Конц. Меркаптана
+            </ParameterFullName>
+      <Value>0.00</Value>
+      <Dimension>мг/м3</Dimension>
+   </DataSection>
+   <DataSection>
+      <Identifier type="ASDU_ESG">89EF84660C7871C3E0530F93380A3380</Identifier>
+      <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Вход на УУ 1-192 (газ).ФХП(н).ТТР по воде</ParameterFullName>
+      <Value>0.0</Value>
+      <Dimension>C</Dimension>
+   </DataSection>
+   <DataSection>
+      <Identifier type="ASDU_ESG">89EF17C08ACB5391E0530F93380ACCC6</Identifier>
+      <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Вход на УУ 1-192 (газ).ФХП(н).ТТР по УВ</ParameterFullName>
+      <Value>0.0</Value>
+      <Dimension>C</Dimension>
+   </DataSection>
+   <DataSection>
+      <Identifier type="ASDU_ESG">89EF86C751F30655E0530F93380A96EA</Identifier>
+      <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Вход на УУ 1-192 (газ).ФХП(н).ТС высшая</ParameterFullName>
+      <Value>0.000</Value>
+   </DataSection>
+   <DataSection>
+      <Identifier type="ASDU_ESG">89EF84660C8271C3E0530F93380A3380</Identifier>
+      <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Вход на УУ 1-192 (газ).ФХП(н).ТС низшая</ParameterFullName>
+      <Value>0.000</Value>
+   </DataSection>
+   <DataSection>
+      <Identifier type="ASDU_ESG">89EF84660C9871C3E0530F93380A3380</Identifier>
+      <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Вход на УУ 1-192 (газ).ФХП(н).Конц. Метана</ParameterFullName>
+      <Value>0.000</Value>
+      <Dimension>%</Dimension>
+   </DataSection>
+   <DataSection>
+      <Identifier type="ASDU_ESG">89EF86C751FD0655E0530F93380A96EA</Identifier>
+      <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Вход на УУ 1-192 (газ).ФХП(н).Конц. Этана</ParameterFullName>
+      <Value>0.000</Value>
+      <Dimension>%</Dimension>
+   </DataSection>
+   <DataSection>
+      <Identifier type="ASDU_ESG">89EF86C752120655E0530F93380A96EA</Identifier>
+      <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Вход на УУ 1-192 (газ).ФХП(н).Конц. Пропана</ParameterFullName>
+      <Value>0.000</Value>
+      <Dimension>%</Dimension>
+   </DataSection>
+   <DataSection>
+      <Identifier type="ASDU_ESG">89EF84660CE271C3E0530F93380A3380</Identifier>
+      <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Вход на УУ 1-192 (газ).ФХП(н).Конц. Гексана и ВУВ
+            </ParameterFullName>
+      <Value>0.000</Value>
+      <Dimension>%</Dimension>
+   </DataSection>
+   <DataSection>
+      <Identifier type="ASDU_ESG">89EF84660CAE71C3E0530F93380A3380</Identifier>
+      <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Вход на УУ 1-192 (газ).ФХП(н).Конц. Изобутана
+            </ParameterFullName>
+      <Value>0.000</Value>
+      <Dimension>%</Dimension>
+   </DataSection>
+   <DataSection>
+      <Identifier type="ASDU_ESG">89EF84660CCE71C3E0530F93380A3380</Identifier>
+      <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Вход на УУ 1-192 (газ).ФХП(н).Конц. Изопентана
+            </ParameterFullName>
+      <Value>0.000</Value>
+      <Dimension>%</Dimension>
+   </DataSection>
+   <DataSection>
+      <Identifier type="ASDU_ESG">89EF84660CB871C3E0530F93380A3380</Identifier>
+      <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Вход на УУ 1-192 (газ).ФХП(н).Конц. n-Бутана
+            </ParameterFullName>
+      <Value>0.000</Value>
+      <Dimension>%</Dimension>
+   </DataSection>
+   <DataSection>
+      <Identifier type="ASDU_ESG">89EF84660CD871C3E0530F93380A3380</Identifier>
+      <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Вход на УУ 1-192 (газ).ФХП(н).Конц. n-Пентана
+            </ParameterFullName>
+      <Value>0.000</Value>
+      <Dimension>%</Dimension>
+   </DataSection>
+   <DataSection>
+      <Identifier type="ASDU_ESG">89EEBD600C2B18BFE0530F93380AA347</Identifier>
+      <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Вход на УУ 1-192 (газ).ФХП(н).Конц. Неопентана
+            </ParameterFullName>
+      <Value>0.000</Value>
+      <Dimension>%</Dimension>
+   </DataSection>
+   <DataSection>
+      <Identifier type="ASDU_ESG">89EF86C752460655E0530F93380A96EA</Identifier>
+      <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Вход на УУ 1-192 (газ).ФХП(н).Конц. Гелия</ParameterFullName>
+      <Value>0.000</Value>
+      <Dimension>%</Dimension>
+   </DataSection>
+   <DataSection>
+      <Identifier type="ASDU_ESG">AD4F3E61492757AEE0530E93380A9263</Identifier>
+      <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Вход на УУ 1-192 (газ).ФХП(н).Плотность при СУ
+            </ParameterFullName>
+      <Value>0.000</Value>
+   </DataSection>
+   <DataSection>
+      <Identifier type="ASDU_ESG">89F167DAEEED5CCEE0530F93380A9209</Identifier>
+      <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Вход на УУ 1-192 (газ).ФХП(н).Конц. Серы</ParameterFullName>
+      <Value>0.00</Value>
+      <Dimension>мг/м3</Dimension>
+   </DataSection>
+   <DataSection>
+      <Identifier type="ASDU_ESG">89EF84660CEC71C3E0530F93380A3380</Identifier>
+      <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Вход на УУ 1-192 (газ).ФХП(н).Конц. Сероводорода
+            </ParameterFullName>
+      <Value>0.00</Value>
+      <Dimension>мг/м3</Dimension>
+   </DataSection>
+   <DataSection>
+      <Identifier type="ASDU_ESG">C5FB390065550F00E0530E93380AC280</Identifier>
+      <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Вход на УУ 2-192 (газ).Поступление сырья (тыс.м3)
+            </ParameterFullName>
+      <Value>0.000</Value>
+      <Dimension>тыс. м3</Dimension>
+   </DataSection>
+   <DataSection>
+      <Identifier type="ASDU_ESG">C5FACF2F1B616EA6E0530F93380AB944</Identifier>
+      <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Вход на УУ 2-192 (газ).Давление сырья</ParameterFullName>
+      <Value>0.0</Value>
+      <Dimension>кг/см2</Dimension>
+   </DataSection>
+   <DataSection>
+      <Identifier type="ASDU_ESG">C5FB3900655F0F00E0530E93380AC280</Identifier>
+      <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Вход на УУ 2-192 (газ).Температура сырья</ParameterFullName>
+      <Value>0.0</Value>
+      <Dimension>C</Dimension>
+   </DataSection>
+   <DataSection>
+      <Identifier type="ASDU_ESG">C5FA12E9CEA03590E0530F93380A2013</Identifier>
+      <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Вход на УУ 2-192 (газ).ФХП(н).Конц. Азота</ParameterFullName>
+      <Value>0.000</Value>
+      <Dimension>%</Dimension>
+   </DataSection>
+   <DataSection>
+      <Identifier type="ASDU_ESG">C5FA12E9CE003590E0530F93380A2013</Identifier>
+      <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Вход на УУ 2-192 (газ).ФХП(н).Конц. Диоксида углерода
+            </ParameterFullName>
+      <Value>0.000</Value>
+      <Dimension>%</Dimension>
+   </DataSection>
+   <DataSection>
+      <Identifier type="ASDU_ESG">C5FA12E9CE5A3590E0530F93380A2013</Identifier>
+      <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Вход на УУ 2-192 (газ).ФХП(н).Конц. Кислорода
+            </ParameterFullName>
+      <Value>0.00</Value>
+   </DataSection>
+   <DataSection>
+      <Identifier type="ASDU_ESG">C5FA12E9CE143590E0530F93380A2013</Identifier>
+      <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Вход на УУ 2-192 (газ).ФХП(н).Конц. Меркаптана
+            </ParameterFullName>
+      <Value>0.00</Value>
+      <Dimension>мг/м3</Dimension>
+   </DataSection>
+   <DataSection>
+      <Identifier type="ASDU_ESG">C5FA12E9CE823590E0530F93380A2013</Identifier>
+      <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Вход на УУ 2-192 (газ).ФХП(н).ТТР по воде</ParameterFullName>
+      <Value>0.0</Value>
+      <Dimension>C</Dimension>
+   </DataSection>
+   <DataSection>
+      <Identifier type="ASDU_ESG">C5FA12E9CE323590E0530F93380A2013</Identifier>
+      <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Вход на УУ 2-192 (газ).ФХП(н).ТТР по УВ</ParameterFullName>
+      <Value>0.0</Value>
+      <Dimension>C</Dimension>
+   </DataSection>
+   <DataSection>
+      <Identifier type="ASDU_ESG">C5FA12E9CE503590E0530F93380A2013</Identifier>
+      <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Вход на УУ 2-192 (газ).ФХП(н).ТС высшая</ParameterFullName>
+      <Value>0.000</Value>
+   </DataSection>
+   <DataSection>
+      <Identifier type="ASDU_ESG">C5FA12E9CE283590E0530F93380A2013</Identifier>
+      <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Вход на УУ 2-192 (газ).ФХП(н).ТС низшая</ParameterFullName>
+      <Value>0.000</Value>
+   </DataSection>
+   <DataSection>
+      <Identifier type="ASDU_ESG">C5FA12E9CDEC3590E0530F93380A2013</Identifier>
+      <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Вход на УУ 2-192 (газ).ФХП(н).Конц. Метана</ParameterFullName>
+      <Value>0.000</Value>
+      <Dimension>%</Dimension>
+   </DataSection>
+   <DataSection>
+      <Identifier type="ASDU_ESG">C5FA12E9CE3C3590E0530F93380A2013</Identifier>
+      <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Вход на УУ 2-192 (газ).ФХП(н).Конц. Этана</ParameterFullName>
+      <Value>0.000</Value>
+      <Dimension>%</Dimension>
+   </DataSection>
+   <DataSection>
+      <Identifier type="ASDU_ESG">C5FA12E9CE643590E0530F93380A2013</Identifier>
+      <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Вход на УУ 2-192 (газ).ФХП(н).Конц. Пропана</ParameterFullName>
+      <Value>0.000</Value>
+      <Dimension>%</Dimension>
+   </DataSection>
+   <DataSection>
+      <Identifier type="ASDU_ESG">C5FA12E9CEB43590E0530F93380A2013</Identifier>
+      <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Вход на УУ 2-192 (газ).ФХП(н).Конц. Гексана и ВУВ
+            </ParameterFullName>
+      <Value>0.000</Value>
+      <Dimension>%</Dimension>
+   </DataSection>
+   <DataSection>
+      <Identifier type="ASDU_ESG">C5FA12E9CE0A3590E0530F93380A2013</Identifier>
+      <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Вход на УУ 2-192 (газ).ФХП(н).Конц. Изобутана
+            </ParameterFullName>
+      <Value>0.000</Value>
+      <Dimension>%</Dimension>
+   </DataSection>
+   <DataSection>
+      <Identifier type="ASDU_ESG">C5FA12E9CE8C3590E0530F93380A2013</Identifier>
+      <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Вход на УУ 2-192 (газ).ФХП(н).Конц. Изопентана
+            </ParameterFullName>
+      <Value>0.000</Value>
+      <Dimension>%</Dimension>
+   </DataSection>
+   <DataSection>
+      <Identifier type="ASDU_ESG">C5FA12E9CEAA3590E0530F93380A2013</Identifier>
+      <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Вход на УУ 2-192 (газ).ФХП(н).Конц. n-Бутана
+            </ParameterFullName>
+      <Value>0.000</Value>
+      <Dimension>%</Dimension>
+   </DataSection>
+   <DataSection>
+      <Identifier type="ASDU_ESG">C5FA12E9CE1E3590E0530F93380A2013</Identifier>
+      <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Вход на УУ 2-192 (газ).ФХП(н).Конц. n-Пентана
+            </ParameterFullName>
+      <Value>0.000</Value>
+      <Dimension>%</Dimension>
+   </DataSection>
+   <DataSection>
+      <Identifier type="ASDU_ESG">C5FA12E9CE963590E0530F93380A2013</Identifier>
+      <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Вход на УУ 2-192 (газ).ФХП(н).Конц. Неопентана
+            </ParameterFullName>
+      <Value>0.000</Value>
+      <Dimension>%</Dimension>
+   </DataSection>
+   <DataSection>
+      <Identifier type="ASDU_ESG">C5FA12E9CDF63590E0530F93380A2013</Identifier>
+      <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Вход на УУ 2-192 (газ).ФХП(н).Конц. Гелия</ParameterFullName>
+      <Value>0.000</Value>
+      <Dimension>%</Dimension>
+   </DataSection>
+   <DataSection>
+      <Identifier type="ASDU_ESG">C5FA12E9CE463590E0530F93380A2013</Identifier>
+      <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Вход на УУ 2-192 (газ).ФХП(н).Плотность при СУ
+            </ParameterFullName>
+      <Value>0.000</Value>
+   </DataSection>
+   <DataSection>
+      <Identifier type="ASDU_ESG">C5FA12E9CE783590E0530F93380A2013</Identifier>
+      <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Вход на УУ 2-192 (газ).ФХП(н).Конц. Серы</ParameterFullName>
+      <Value>0.00</Value>
+      <Dimension>мг/м3</Dimension>
+   </DataSection>
+   <DataSection>
+      <Identifier type="ASDU_ESG">C5FA12E9CE6E3590E0530F93380A2013</Identifier>
+      <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Вход на УУ 2-192 (газ).ФХП(н).Конц. Сероводорода
+            </ParameterFullName>
+      <Value>0.00</Value>
+      <Dimension>мг/м3</Dimension>
+   </DataSection>
+   <DataSection>
+      <Identifier type="ASDU_ESG">80351DC449F928FDE0530F93380AA987</Identifier>
+      <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Группа выходов в МГ СС (газ).Поставка продукта (тыс.м3)
+            </ParameterFullName>
+      <Value>0.000</Value>
+      <Dimension>тыс. м3</Dimension>
+   </DataSection>
+   <DataSection>
+      <Identifier type="ASDU_ESG">C287BD9CC32779FDE0530E93380AABCA</Identifier>
+      <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Выход с УУ 1-190 (газ).Поставка продукта (тыс.м3)
+            </ParameterFullName>
+      <Value>0.000</Value>
+      <Dimension>тыс. м3</Dimension>
+   </DataSection>
+   <DataSection>
+      <Identifier type="ASDU_ESG">803512304EB06DF3E0530E93380A2C3A</Identifier>
+      <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Выход с УУ 1-190 (газ).Давление продукта</ParameterFullName>
+      <Value>0.0</Value>
+      <Dimension>кг/см2</Dimension>
+   </DataSection>
+   <DataSection>
+      <Identifier type="ASDU_ESG">80351DC44A0328FDE0530F93380AA987</Identifier>
+      <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Выход с УУ 1-190 (газ).Температура продукта</ParameterFullName>
+      <Value>0.0</Value>
+      <Dimension>C</Dimension>
+   </DataSection>
+   <DataSection>
+      <Identifier type="ASDU_ESG">89EF84660D0671C3E0530F93380A3380</Identifier>
+      <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Выход с УУ 1-190 (газ).ФХП(н).ТТР по УВ</ParameterFullName>
+      <Value>0.0</Value>
+      <Dimension>C</Dimension>
+   </DataSection>
+   <DataSection>
+      <Identifier type="ASDU_ESG">89EF86C752500655E0530F93380A96EA</Identifier>
+      <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Выход с УУ 1-190 (газ).ФХП(н).ТТР по воде</ParameterFullName>
+      <Value>0.0</Value>
+      <Dimension>C</Dimension>
+   </DataSection>
+   <DataSection>
+      <Identifier type="ASDU_ESG">89EF86C7525A0655E0530F93380A96EA</Identifier>
+      <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Выход с УУ 1-190 (газ).ФХП(н).ТС низшая</ParameterFullName>
+      <Value>35.750</Value>
+   </DataSection>
+   <DataSection>
+      <Identifier type="ASDU_ESG">89EF84660DA371C3E0530F93380A3380</Identifier>
+      <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Выход с УУ 1-190 (газ).ФХП(н).ТС высшая</ParameterFullName>
+      <Value>0.000</Value>
+   </DataSection>
+   <DataSection>
+      <Identifier type="ASDU_ESG">89EF84660DAE71C3E0530F93380A3380</Identifier>
+      <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Выход с УУ 1-190 (газ).ФХП(н).Конц. Метана</ParameterFullName>
+      <Value>0.000</Value>
+      <Dimension>%</Dimension>
+   </DataSection>
+   <DataSection>
+      <Identifier type="ASDU_ESG">89EF86C752650655E0530F93380A96EA</Identifier>
+      <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Выход с УУ 1-190 (газ).ФХП(н).Конц. Этана</ParameterFullName>
+      <Value>0.000</Value>
+      <Dimension>%</Dimension>
+   </DataSection>
+   <DataSection>
+      <Identifier type="ASDU_ESG">89EF84660DB971C3E0530F93380A3380</Identifier>
+      <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Выход с УУ 1-190 (газ).ФХП(н).Конц. Пропана</ParameterFullName>
+      <Value>0.000</Value>
+      <Dimension>%</Dimension>
+   </DataSection>
+   <DataSection>
+      <Identifier type="ASDU_ESG">89EF86C7527A0655E0530F93380A96EA</Identifier>
+      <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Выход с УУ 1-190 (газ).ФХП(н).Конц. Гексана и ВУВ
+            </ParameterFullName>
+      <Value>0.000</Value>
+      <Dimension>%</Dimension>
+   </DataSection>
+   <DataSection>
+      <Identifier type="ASDU_ESG">89EFB6AB75244A13E0530E93380ACF45</Identifier>
+      <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Выход с УУ 1-190 (газ).ФХП(н).Конц. Изобутана
+            </ParameterFullName>
+      <Value>0.000</Value>
+      <Dimension>%</Dimension>
+   </DataSection>
+   <DataSection>
+      <Identifier type="ASDU_ESG">89EF86C752700655E0530F93380A96EA</Identifier>
+      <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Выход с УУ 1-190 (газ).ФХП(н).Конц. Изопентана
+            </ParameterFullName>
+      <Value>0.000</Value>
+      <Dimension>%</Dimension>
+   </DataSection>
+   <DataSection>
+      <Identifier type="ASDU_ESG">89EFB7CEF1BD0D20E0530F93380A3EA2</Identifier>
+      <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Выход с УУ 1-190 (газ).ФХП(н).Конц. n-Бутана
+            </ParameterFullName>
+      <Value>0.000</Value>
+      <Dimension>%</Dimension>
+   </DataSection>
+   <DataSection>
+      <Identifier type="ASDU_ESG">89EF84660DD171C3E0530F93380A3380</Identifier>
+      <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Выход с УУ 1-190 (газ).ФХП(н).Конц. n-Пентана
+            </ParameterFullName>
+      <Value>0.000</Value>
+      <Dimension>%</Dimension>
+   </DataSection>
+   <DataSection>
+      <Identifier type="ASDU_ESG">89EF86C752840655E0530F93380A96EA</Identifier>
+      <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Выход с УУ 1-190 (газ).ФХП(н).Конц. Диоксида углерода
+            </ParameterFullName>
+      <Value>0.000</Value>
+      <Dimension>%</Dimension>
+   </DataSection>
+   <DataSection>
+      <Identifier type="ASDU_ESG">89EF86C7528E0655E0530F93380A96EA</Identifier>
+      <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Выход с УУ 1-190 (газ).ФХП(н).Конц. Азота</ParameterFullName>
+      <Value>0.000</Value>
+      <Dimension>%</Dimension>
+   </DataSection>
+   <DataSection>
+      <Identifier type="ASDU_ESG">89EF84660DC471C3E0530F93380A3380</Identifier>
+      <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Выход с УУ 1-190 (газ).ФХП(н).Конц. Неопентана
+            </ParameterFullName>
+      <Value>0.000</Value>
+      <Dimension>%</Dimension>
+   </DataSection>
+   <DataSection>
+      <Identifier type="ASDU_ESG">89EF84660DE671C3E0530F93380A3380</Identifier>
+      <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Выход с УУ 1-190 (газ).ФХП(н).Конц. Гелия</ParameterFullName>
+      <Value>0.000</Value>
+      <Dimension>%</Dimension>
+   </DataSection>
+   <DataSection>
+      <Identifier type="ASDU_ESG">89EF66E59AFC462CE0530F93380A591B</Identifier>
+      <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Выход с УУ 1-190 (газ).ФХП(н).Конц. Кислорода
+            </ParameterFullName>
+      <Value>0.00</Value>
+   </DataSection>
+   <DataSection>
+      <Identifier type="ASDU_ESG">AD4F3E61493857AEE0530E93380A9263</Identifier>
+      <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Выход с УУ 1-190 (газ).ФХП(н).Плотность при СУ
+            </ParameterFullName>
+      <Value>0.000</Value>
+   </DataSection>
+   <DataSection>
+      <Identifier type="ASDU_ESG">89EFB7CEF1C70D20E0530F93380A3EA2</Identifier>
+      <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Выход с УУ 1-190 (газ).ФХП(н).Конц. Меркаптана
+            </ParameterFullName>
+      <Value>0.00</Value>
+      <Dimension>мг/м3</Dimension>
+   </DataSection>
+   <DataSection>
+      <Identifier type="ASDU_ESG">89F158D947392762E0530F93380A1E4C</Identifier>
+      <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Выход с УУ 1-190 (газ).ФХП(н).Конц. Серы</ParameterFullName>
+      <Value>0.00</Value>
+      <Dimension>мг/м3</Dimension>
+   </DataSection>
+   <DataSection>
+      <Identifier type="ASDU_ESG">89EF84660DDC71C3E0530F93380A3380</Identifier>
+      <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Выход с УУ 1-190 (газ).ФХП(н).Конц. Сероводорода
+            </ParameterFullName>
+      <Value>0.00</Value>
+      <Dimension>мг/м3</Dimension>
+   </DataSection>
+   <DataSection>
+      <Identifier type="ASDU_ESG">C287DCCD97880FA7E0530E93380AC24E</Identifier>
+      <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Выход с УУ 2-190 (газ).Поставка продукта (тыс.м3)
+            </ParameterFullName>
+      <Value>0.000</Value>
+      <Dimension>тыс. м3</Dimension>
+   </DataSection>
+   <DataSection>
+      <Identifier type="ASDU_ESG">C287DCCD97280FA7E0530E93380AC24E</Identifier>
+      <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Выход с УУ 2-190 (газ).Давление продукта</ParameterFullName>
+      <Value>0.0</Value>
+      <Dimension>кг/см2</Dimension>
+   </DataSection>
+   <DataSection>
+      <Identifier type="ASDU_ESG">C287DCCD97940FA7E0530E93380AC24E</Identifier>
+      <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Выход с УУ 2-190 (газ).Температура продукта</ParameterFullName>
+      <Value>0.0</Value>
+      <Dimension>C</Dimension>
+   </DataSection>
+   <DataSection>
+      <Identifier type="ASDU_ESG">C287D941F52039B0E0530F93380A486E</Identifier>
+      <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Выход с УУ 2-190 (газ).ФХП(н).ТТР по УВ</ParameterFullName>
+      <Value>0.0</Value>
+      <Dimension>C</Dimension>
+   </DataSection>
+   <DataSection>
+      <Identifier type="ASDU_ESG">C287D941F51439B0E0530F93380A486E</Identifier>
+      <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Выход с УУ 2-190 (газ).ФХП(н).ТТР по воде</ParameterFullName>
+      <Value>0.0</Value>
+      <Dimension>C</Dimension>
+   </DataSection>
+   <DataSection>
+      <Identifier type="ASDU_ESG">C287D941F52C39B0E0530F93380A486E</Identifier>
+      <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Выход с УУ 2-190 (газ).ФХП(н).ТС низшая</ParameterFullName>
+      <Value>0.000</Value>
+   </DataSection>
+   <DataSection>
+      <Identifier type="ASDU_ESG">C287DCCD97A10FA7E0530E93380AC24E</Identifier>
+      <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Выход с УУ 2-190 (газ).ФХП(н).ТС высшая</ParameterFullName>
+      <Value>0.000</Value>
+   </DataSection>
+   <DataSection>
+      <Identifier type="ASDU_ESG">C287D941F4D839B0E0530F93380A486E</Identifier>
+      <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Выход с УУ 2-190 (газ).ФХП(н).Конц. Метана</ParameterFullName>
+      <Value>0.000</Value>
+      <Dimension>%</Dimension>
+   </DataSection>
+   <DataSection>
+      <Identifier type="ASDU_ESG">C287D941F4FC39B0E0530F93380A486E</Identifier>
+      <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Выход с УУ 2-190 (газ).ФХП(н).Конц. Этана</ParameterFullName>
+      <Value>0.000</Value>
+      <Dimension>%</Dimension>
+   </DataSection>
+   <DataSection>
+      <Identifier type="ASDU_ESG">C287DCCD977C0FA7E0530E93380AC24E</Identifier>
+      <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Выход с УУ 2-190 (газ).ФХП(н).Конц. Пропана</ParameterFullName>
+      <Value>0.000</Value>
+      <Dimension>%</Dimension>
+   </DataSection>
+   <DataSection>
+      <Identifier type="ASDU_ESG">C287D941F4A639B0E0530F93380A486E</Identifier>
+      <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Выход с УУ 2-190 (газ).ФХП(н).Конц. Гексана и ВУВ
+            </ParameterFullName>
+      <Value>0.000</Value>
+      <Dimension>%</Dimension>
+   </DataSection>
+   <DataSection>
+      <Identifier type="ASDU_ESG">C287EE3E8A875C5AE0530F93380ABA11</Identifier>
+      <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Выход с УУ 2-190 (газ).ФХП(н).Конц. Изобутана
+            </ParameterFullName>
+      <Value>0.000</Value>
+      <Dimension>%</Dimension>
+   </DataSection>
+   <DataSection>
+      <Identifier type="ASDU_ESG">C287D941F4CC39B0E0530F93380A486E</Identifier>
+      <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Выход с УУ 2-190 (газ).ФХП(н).Конц. Изопентана
+            </ParameterFullName>
+      <Value>0.000</Value>
+      <Dimension>%</Dimension>
+   </DataSection>
+   <DataSection>
+      <Identifier type="ASDU_ESG">C287DCCD97400FA7E0530E93380AC24E</Identifier>
+      <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Выход с УУ 2-190 (газ).ФХП(н).Конц. n-Бутана
+            </ParameterFullName>
+      <Value>0.000</Value>
+      <Dimension>%</Dimension>
+   </DataSection>
+   <DataSection>
+      <Identifier type="ASDU_ESG">C287DCCD97700FA7E0530E93380AC24E</Identifier>
+      <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Выход с УУ 2-190 (газ).ФХП(н).Конц. n-Пентана
+            </ParameterFullName>
+      <Value>0.000</Value>
+      <Dimension>%</Dimension>
+   </DataSection>
+   <DataSection>
+      <Identifier type="ASDU_ESG">C287D941F4BE39B0E0530F93380A486E</Identifier>
+      <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Выход с УУ 2-190 (газ).ФХП(н).Конц. Диоксида углерода
+            </ParameterFullName>
+      <Value>0.000</Value>
+      <Dimension>%</Dimension>
+   </DataSection>
+   <DataSection>
+      <Identifier type="ASDU_ESG">C287DCCD97340FA7E0530E93380AC24E</Identifier>
+      <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Выход с УУ 2-190 (газ).ФХП(н).Конц. Азота</ParameterFullName>
+      <Value>0.000</Value>
+      <Dimension>%</Dimension>
+   </DataSection>
+   <DataSection>
+      <Identifier type="ASDU_ESG">C287DCCD97640FA7E0530E93380AC24E</Identifier>
+      <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Выход с УУ 2-190 (газ).ФХП(н).Конц. Неопентана
+            </ParameterFullName>
+      <Value>0.000</Value>
+      <Dimension>%</Dimension>
+   </DataSection>
+   <DataSection>
+      <Identifier type="ASDU_ESG">C287D941F4B239B0E0530F93380A486E</Identifier>
+      <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Выход с УУ 2-190 (газ).ФХП(н).Конц. Гелия</ParameterFullName>
+      <Value>0.000</Value>
+      <Dimension>%</Dimension>
+   </DataSection>
+   <DataSection>
+      <Identifier type="ASDU_ESG">C287DCCD974C0FA7E0530E93380AC24E</Identifier>
+      <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Выход с УУ 2-190 (газ).ФХП(н).Конц. Кислорода
+            </ParameterFullName>
+      <Value>0.00</Value>
+   </DataSection>
+   <DataSection>
+      <Identifier type="ASDU_ESG">C287D941F50839B0E0530F93380A486E</Identifier>
+      <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Выход с УУ 2-190 (газ).ФХП(н).Плотность при СУ
+            </ParameterFullName>
+      <Value>0.000</Value>
+   </DataSection>
+   <DataSection>
+      <Identifier type="ASDU_ESG">C287DCCD97580FA7E0530E93380AC24E</Identifier>
+      <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Выход с УУ 2-190 (газ).ФХП(н).Конц. Меркаптана
+            </ParameterFullName>
+      <Value>0.00</Value>
+      <Dimension>мг/м3</Dimension>
+   </DataSection>
+   <DataSection>
+      <Identifier type="ASDU_ESG">C287D941F4F039B0E0530F93380A486E</Identifier>
+      <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Выход с УУ 2-190 (газ).ФХП(н).Конц. Серы</ParameterFullName>
+      <Value>0.00</Value>
+      <Dimension>мг/м3</Dimension>
+   </DataSection>
+   <DataSection>
+      <Identifier type="ASDU_ESG">C287D941F4E439B0E0530F93380A486E</Identifier>
+      <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Выход с УУ 2-190 (газ).ФХП(н).Конц. Сероводорода
+            </ParameterFullName>
+      <Value>0.00</Value>
+      <Dimension>мг/м3</Dimension>
+   </DataSection>
+   <DataSection>
+      <Identifier type="ASDU_ESG">8083CC3816977434E0530F93380A78CF</Identifier>
+      <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Выход на Амурский ГХК (этан).Поставка продукта (тыс.м3)
+            </ParameterFullName>
+      <Value>0.000</Value>
+      <Dimension>тыс. м3</Dimension>
+   </DataSection>
+   <DataSection>
+      <Identifier type="ASDU_ESG">8083CC38168B7434E0530F93380A78CF</Identifier>
+      <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Выход на Амурский ГХК (этан).Давление продукта
+            </ParameterFullName>
+      <Value>0.0</Value>
+      <Dimension>кг/см2</Dimension>
+   </DataSection>
+   <DataSection>
+      <Identifier type="ASDU_ESG">8085321266252B24E0530F93380AB563</Identifier>
+      <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Выход на Амурский ГХК (этан).Температура продукта
+            </ParameterFullName>
+      <Value>0.0</Value>
+      <Dimension>C</Dimension>
+   </DataSection>
+   <DataSection>
+      <Identifier type="ASDU_ESG">8085DB120C891D3FE0530F93380A7A31</Identifier>
+      <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Выход на Своб. ТЭС (газ).Поставка продукта (тыс.м3)
+            </ParameterFullName>
+      <Value>0.000</Value>
+      <Dimension>тыс. м3</Dimension>
+   </DataSection>
+   <DataSection>
+      <Identifier type="ASDU_ESG">80860D0783797F08E0530F93380A7FAC</Identifier>
+      <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Выход на Своб. ТЭС (газ).Давление продукта</ParameterFullName>
+      <Value>0.0</Value>
+      <Dimension>кг/см2</Dimension>
+   </DataSection>
+   <DataSection>
+      <Identifier type="ASDU_ESG">8085D3973D101826E0530E93380AE725</Identifier>
+      <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Выход на Своб. ТЭС (газ).Температура продукта
+            </ParameterFullName>
+      <Value>0.0</Value>
+      <Dimension>C</Dimension>
+   </DataSection>
+   <DataSection>
+      <Identifier type="ASDU_ESG">AD52BC45522617C7E0530F93380A4157</Identifier>
+      <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Выход на ТСБ (БФ).Поставка продукта (т)</ParameterFullName>
+      <Value>0.000</Value>
+      <Dimension>тонн</Dimension>
+   </DataSection>
+   <DataSection>
+      <Identifier type="ASDU_ESG">AD52DD98A4CB066FE0530E93380A87E8</Identifier>
+      <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Выход на ТСБ (ПФ).Поставка продукта (т)</ParameterFullName>
+      <Value>0.000</Value>
+      <Dimension>тонн</Dimension>
+   </DataSection>
+   <DataSection>
+      <Identifier type="ASDU_ESG">AD52DD98A4B5066FE0530E93380A87E8</Identifier>
+      <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Выход на ТСБ (ПГФ).Поставка продукта (т)</ParameterFullName>
+      <Value>0.000</Value>
+      <Dimension>тонн</Dimension>
+   </DataSection>
+   <DataSection>
+      <Identifier type="ASDU_ESG">AD5189EF44F261E6E0530F93380A2C74</Identifier>
+      <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Выход в автоцистерны (гелий).Поставка продукта (т)
+            </ParameterFullName>
+      <Value>0.000</Value>
+      <Dimension>тонн</Dimension>
+   </DataSection>
+</BusinessMessage>

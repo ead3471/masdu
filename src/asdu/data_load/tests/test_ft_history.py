@@ -36,12 +36,3 @@ class TestFastToolsItem(TestCase):
                                               limit_in_seconds=60)
         print(str(ft_item), ft_item.time_stamp)
         dss.close(conn)
-
-    # def test_read_history_value(self):
-    #     self.fail()
-    #
-    # def test_read_current_values(self):
-    #     self.fail()
-    #
-    # def test_read_history_values(self):
-    #     self.fail()
