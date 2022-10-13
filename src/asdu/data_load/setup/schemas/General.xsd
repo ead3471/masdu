@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema
+  xmlns:g="g"
+  xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:simpleType name="syntaxVersion">
+    <xs:annotation>
+      <xs:documentation xml:lang="ru">Версия формата файла информационного взаимодействия.</xs:documentation>
+    </xs:annotation>
+    <xs:restriction base="xs:integer">
+      <xs:minInclusive value="1"/>
+      <xs:maxInclusive value="1"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="asduIdentifierContent">
+    <xs:annotation>
+      <xs:documentation xml:lang="ru">Ограничения на формат идентификатора М АСДУ ЕСГ</xs:documentation>
+    </xs:annotation>
+    <xs:restriction base="xs:token">
+      <xs:pattern value="[a-fA-F0-9]{32}"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:complexType name="asduIdentifier">
+    <xs:annotation>
+      <xs:documentation xml:lang="ru">Тип идентификатора М АСДУ ЕСГ</xs:documentation>
+    </xs:annotation>
+    <xs:simpleContent>
+      <xs:extension base="asduIdentifierContent">
+        <xs:attribute name="type" use="required">
+          <xs:simpleType>
+            <xs:restriction base="xs:token">
+              <xs:enumeration value="ASDU_ESG"/>
+            </xs:restriction>
+          </xs:simpleType>
+        </xs:attribute>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+
+  <xs:simpleType name="string">
+    <xs:annotation>
+      <xs:documentation xml:lang="ru">Строковый тип данных</xs:documentation>
+    </xs:annotation>
+    <xs:restriction base="xs:string">
+      <xs:maxLength value="255"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="text">
+    <xs:annotation>
+      <xs:documentation xml:lang="ru">Текстовый тип данных</xs:documentation>
+    </xs:annotation>
+    <xs:restriction base="xs:string">
+      <xs:maxLength value="4000"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="dateTime">
+    <xs:annotation>
+      <xs:documentation xml:lang="ru">Тип данных дата/время</xs:documentation>
+    </xs:annotation>
+    <xs:restriction base="xs:dateTime">
+      <xs:minInclusive value="1999-12-31T23:59:59"/>
+      <xs:maxInclusive value="2099-12-31T23:59:59"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="source">
+    <xs:annotation>
+      <xs:documentation xml:lang="ru">Источник ввода</xs:documentation>
+    </xs:annotation>
+    <xs:restriction base="xs:integer">
+      <xs:minInclusive value="0"/>
+      <xs:maxInclusive value="2"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="partner">
+    <xs:annotation>
+      <xs:documentation xml:lang="ru">Перечень возможных источников и получателей</xs:documentation>
+    </xs:annotation>
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="М АСДУ ЕСГ"/>
+      <xs:enumeration value="ГП ТГ Беларусь"/>
+      <xs:enumeration value="ГП ПХГ"/>
+      <xs:enumeration value="ГП ДБ Астрахань"/>
+      <xs:enumeration value="ГП ДБ Краснодар"/>
+      <xs:enumeration value="ГП ДБ Надым"/>
+      <xs:enumeration value="ГП ДБ Ноябрьск"/>
+      <xs:enumeration value="ГП ДБ Оренбург"/>
+      <xs:enumeration value="ГП ДБ Уренгой"/>
+      <xs:enumeration value="ГП ДБ Ямбург"/>
+      <xs:enumeration value="ГП Переработка"/>
+      <xs:enumeration value="ГП ТГ Волгоград"/>
+      <xs:enumeration value="ГП ТГ Екатеринбург"/>
+      <xs:enumeration value="ГП ТГ Казань"/>
+      <xs:enumeration value="ГП ТГ Краснодар"/>
+      <xs:enumeration value="ГП ТГ Махачкала"/>
+      <xs:enumeration value="ГП ТГ Москва"/>
+      <xs:enumeration value="ГП ТГ Н.Новгород"/>
+      <xs:enumeration value="ГП ТГ Самара"/>
+      <xs:enumeration value="ГП ТГ С.Петербург"/>
+      <xs:enumeration value="ГП ТГ Саратов"/>
+      <xs:enumeration value="ГП ТГ Ставрополь"/>
+      <xs:enumeration value="ГП ТГ Сургут"/>
+      <xs:enumeration value="ГП ТГ Томск"/>
+      <xs:enumeration value="ГП ТГ Уфа"/>
+      <xs:enumeration value="ГП ТГ Ухта"/>
+      <xs:enumeration value="ГП ТГ Чайковский"/>
+      <xs:enumeration value="ГП ТГ Югорск"/>
+      <xs:enumeration value="СеверНГ"/>
+      <xs:enumeration value="ЧеченГП"/>
+      <xs:enumeration value="УкрТГ"/>
+      <xs:enumeration value="Сахалин Энерджи"/>
+      <xs:enumeration value="Томскнефть"/>
+      <xs:enumeration value="Славнефть"/>
+      <xs:enumeration value="ТомскГП"/>
+      <xs:enumeration value="ГП Нефть"/>
+      <xs:enumeration value="Молдовагаз"/>
+      <xs:enumeration value="Салым петролеум"/>
+      <xs:enumeration value="ИЦА"/>
+      <xs:enumeration value="ГП Межрегионгаз"/>
+      <xs:enumeration value="ГП Туркменистан"/>
+      <xs:enumeration value="ГП Казахстан"/>
+      <xs:enumeration value="ГП ДБ Шельф"/>
+      <xs:enumeration value="ГП Армения"/>
+      <xs:enumeration value="ЯкутГП"/>
+      <xs:enumeration value="НорильскГП"/>
+      <xs:enumeration value="ГрузТГ"/>
+      <xs:enumeration value="УргенчТГ"/>
+      <xs:enumeration value="ГП ДБ Иркутск"/>
+      <xs:enumeration value="ЧерноморНГ"/>
+      <xs:enumeration value="ГП Кыргызстан"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+
+  <xs:complexType name="identifiedSection">
+    <xs:sequence>
+      <xs:element minOccurs="1" maxOccurs="1" name="Identifier" type="asduIdentifier"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="dataSectionBase">
+    <xs:annotation>
+      <xs:documentation xml:lang="ru">Раздел данных файла информационного взаимодействия</xs:documentation>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="identifiedSection">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="1" name="ParameterFullName" type="text" />
+          <xs:element minOccurs="1" maxOccurs="1" name="Value" type="xs:decimal" />
+          <xs:element minOccurs="0" maxOccurs="1" name="Source" type="source" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+
+  <xs:complexType name="headerSectionBase">
+    <xs:annotation>
+      <xs:documentation xml:lang="ru">Заголовок файла информационного взаимодействия</xs:documentation>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element name="Sender">
+        <xs:annotation>
+          <xs:documentation xml:lang="ru">Источник</xs:documentation>
+        </xs:annotation>
+        <xs:complexType>
+          <xs:attribute name="id" type="partner" use="required" />
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="Receiver">
+        <xs:annotation>
+          <xs:documentation xml:lang="ru">Получатель</xs:documentation>
+        </xs:annotation>
+        <xs:complexType>
+          <xs:attribute name="id" type="partner" use="required" />
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="Generated">
+        <xs:complexType>
+          <xs:attribute name="at" type="dateTime" use="required" />
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="Comment" type="text" minOccurs="0" maxOccurs="1"/>
+    </xs:sequence>
+  </xs:complexType>
+
+</xs:schema>

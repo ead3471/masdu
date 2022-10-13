@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:include schemaLocation="General.xsd"/>
+  <xs:element name="BusinessMessage" type="businessMessage"/>
+  <xs:complexType name="businessMessage">
+    <xs:annotation>
+      <xs:documentation xml:lang="ru">Формат файла информационного взаимодействия. Сеансовые данные (2ч) </xs:documentation>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element name="HeaderSection" type="headerSection" minOccurs="1" maxOccurs="1"/>
+      <xs:element maxOccurs="unbounded" minOccurs="1" name="DataSection" type="dataSection"/>
+    </xs:sequence>
+    <xs:attribute  name="version" type="syntaxVersion" use="optional"/>
+  </xs:complexType>
+
+  <xs:complexType name="headerSection">
+    <xs:annotation>
+      <xs:documentation xml:lang="ru">Заголовок файла информационного взаимодействия</xs:documentation>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="headerSectionBase">
+        <xs:sequence>
+          <xs:element name="ReferenceTime">
+            <xs:annotation>
+              <xs:documentation xml:lang="ru">Метка времени</xs:documentation>
+            </xs:annotation>
+            <xs:complexType>
+              <xs:attribute name="time" type="referenceTime" use="required" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="Scale">
+            <xs:annotation>
+              <xs:documentation xml:lang="ru">Временной регламент</xs:documentation>
+            </xs:annotation>
+            <xs:simpleType>
+              <xs:restriction base="xs:duration">
+                <xs:enumeration value="PT2H"/>
+              </xs:restriction>
+            </xs:simpleType>
+          </xs:element>
+          <xs:element name="Template">
+            <xs:annotation>
+              <xs:documentation xml:lang="ru">Идентификатор типа сообщения</xs:documentation>
+            </xs:annotation>
+            <xs:complexType>
+              <xs:attribute name="id" type="template" use="required" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="FullName" minOccurs="0" maxOccurs="1" type="string"/>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+
+  <xs:complexType name="dataSection">
+    <xs:annotation>
+      <xs:documentation xml:lang="ru">Раздел данных файла информационного взаимодействия</xs:documentation>
+    </xs:annotation>
+    <xs:complexContent>
+      <xs:extension base="dataSectionBase">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="1" name="Dimension" type="dimension" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+
+  <xs:simpleType name="template">
+    <xs:annotation>
+      <xs:documentation xml:lang="ru">Идентификатор типа сообщения</xs:documentation>
+    </xs:annotation>
+    <xs:restriction base="string">
+      <xs:pattern value="(D_AST|D_NDM|D_NBR|D_ORB|D_URG|D_YMB|T_VLG|T_EKB|T_KZN|T_KRA|T_MAH|T_MSK|T_NNV|T_SMR|T_SPB|T_SRT|T_STV|T_SRG|T_TMS|T_UFA|T_UHT|T_CHA|T_YGR|G_PHG|G_PRB|D_KRD|G_MRG|T_BEL|F_ARM|D_IRK|D_SHF|F_KAZ|F_TRK|F_KGZ|C_CNG|G_CHE|G_EXP|C_YAK|C_NOR|F_GRZ|C_TEK|F_UZB|C_SLN|C_TOM|F_ICA|C_NFT|F_UDC|F_BDC|F_EDC|C_SVN|F_MLD|F_UKR|C_SAH|C_TNF|C_SPM)[.]PT2H[.]RT[.]V[1-9]+"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+   <xs:simpleType name="dimension">
+    <xs:annotation>
+      <xs:documentation xml:lang="ru">Единицы измерения</xs:documentation>
+    </xs:annotation>
+    <xs:restriction base="string">
+      <xs:enumeration value=""/>
+      <xs:enumeration value="кг/см2"/>
+      <xs:enumeration value="МПа"/>
+      <xs:enumeration value="C"/>
+      <xs:enumeration value="мг/м3"/>
+      <xs:enumeration value="об/мин"/>
+      <xs:enumeration value="тыс. м3/час"/>
+      <xs:enumeration value="м3/час"/>
+      <xs:enumeration value="тыс. м3"/>
+      <xs:enumeration value="тыс. тонн/час"/>
+      <xs:enumeration value="тонн/час"/>
+      <xs:enumeration value="тыс. тонн"/>
+      <xs:enumeration value="шт"/>
+      <xs:enumeration value="тонн"/>
+      <xs:enumeration value="ppm"/>
+      <xs:enumeration value="мг/м3"/>
+      <xs:enumeration value="кг/м3"/>
+      <xs:enumeration value="кДж/м3"/>
+      <xs:enumeration value="МДж/м3"/>
+      <xs:enumeration value="тыс. кВт*час"/>
+      <xs:enumeration value="%"/>
+</xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="referenceTime">
+    <xs:annotation>
+      <xs:documentation xml:lang="ru">Тип данных дата/время для сбора сеансовых данных (2 часа)</xs:documentation>
+    </xs:annotation>
+    <xs:restriction base="dateTime">
+      <xs:pattern value="[1-9][0-9]{3}-.+T(00|02|04|06|08|10|12|14|16|18|20|22):00:00+(Z|[+-].+)"></xs:pattern>
+    </xs:restriction>
+  </xs:simpleType>
+
+</xs:schema>

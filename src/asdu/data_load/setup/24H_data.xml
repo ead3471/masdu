@@ -1,0 +1,1130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Setup>
+    <Header>
+        <Sender id="ГП Переработка Благовещенск"/>
+        <Receiver id="М АСДУ ЕСГ"/>
+        <Comment>Файл со значениями технологических параметров.24 Часовой</Comment>
+        <Scale>PT24H</Scale>
+        <Location>P_BLG</Location>
+        <InformationType>RT</InformationType>
+        <FullName>DMS</FullName>>
+    </Header>
+    <DataRecords>
+
+
+        <DataRecord>
+            <id>89F0B0EB954E2AF2E0530F93380A919E</id>
+            <ParameterFullName>ГП ПРБ Благовещенск.ДКС АмГПЗ 1-110.КЦ.Расход газа</ParameterFullName>
+            <FastToolsTag>ASDU_ESG.1110.Q.hour_24_aggr.finalValue</FastToolsTag>
+            <EU>тыс. м3</EU>
+            <HistoryGroup>MASDU_ESG_AGGR</HistoryGroup>
+        </DataRecord>
+        <DataRecord>
+            <id>89F12D410BAD1BA8E0530E93380AFBAD</id>
+            <ParameterFullName>ГП ПРБ Благовещенск.ДКС АмГПЗ 1-110.КЦ.Расход топливного газа</ParameterFullName>
+            <FastToolsTag>ASDU_ESG.1110.QTG.hour_24_aggr.finalValue</FastToolsTag>
+            <EU>тыс. м3</EU>
+            <HistoryGroup>MASDU_ESG_AGGR</HistoryGroup>
+        </DataRecord>
+
+
+        <DataRecord>
+            <id>89F13F40A1282400E0530F93380A7BD5</id>
+            <ParameterFullName>ГП ПРБ Благовещенск.ДКС АмГПЗ 1-110.КЦ.ГПА 1-110A.Расход газа</ParameterFullName>
+            <FastToolsTag>ASDU_ESG.1110.GPA1_Q.hour_24_aggr.finalValue</FastToolsTag>
+            <EU>тыс. м3</EU>
+            <HistoryGroup>MASDU_ESG_AGGR</HistoryGroup>
+        </DataRecord>
+        <DataRecord>
+            <id>89F13F40A1322400E0530F93380A7BD5</id>
+            <ParameterFullName>ГП ПРБ Благовещенск.ДКС АмГПЗ 1-110.КЦ.ГПА 1-110A.Расход топливного газа
+            </ParameterFullName>
+            <FastToolsTag>ASDU_ESG.1110.GPA1_QTG.hour_24_aggr.finalValue</FastToolsTag>
+            <EU>тыс. м3</EU>
+            <HistoryGroup>MASDU_ESG_AGGR</HistoryGroup>
+        </DataRecord>
+
+
+        <DataRecord>
+            <id>89F1CF4CF84B3324E0530F93380AFD25</id>
+            <ParameterFullName>ГП ПРБ Благовещенск.ДКС АмГПЗ 1-110.КЦ.ГПА 1-110B.Расход газа</ParameterFullName>
+            <FastToolsTag>ASDU_ESG.1110.GPA2_Q.hour_24_aggr.finalValue</FastToolsTag>
+            <EU>тыс. м3</EU>
+            <HistoryGroup>MASDU_ESG_AGGR</HistoryGroup>
+        </DataRecord>
+        <DataRecord>
+            <id>89F1CF4CF8553324E0530F93380AFD25</id>
+            <ParameterFullName>ГП ПРБ Благовещенск.ДКС АмГПЗ 1-110.КЦ.ГПА 1-110B.Расход топливного газа
+            </ParameterFullName>
+            <FastToolsTag>ASDU_ESG.1110.GPA2_QTG.hour_24_aggr.finalValue</FastToolsTag>
+            <EU>тыс. м3</EU>
+            <HistoryGroup>MASDU_ESG_AGGR</HistoryGroup>
+        </DataRecord>
+
+
+        <DataRecord>
+            <id>C65B3C76CB4C7BACE0530F93380A8CC1</id>
+            <ParameterFullName>ГП ПРБ Благовещенск.ДКС АмГПЗ 2-110.КЦ.Расход газа</ParameterFullName>
+            <FastToolsTag>ASDU_ESG.2110.Q.hour_24_aggr.finalValue</FastToolsTag>
+            <EU>тыс. м3</EU>
+            <HistoryGroup>MASDU_ESG_AGGR</HistoryGroup>
+        </DataRecord>
+        <DataRecord>
+            <id>C65B3C76CB1E7BACE0530F93380A8CC1</id>
+            <ParameterFullName>ГП ПРБ Благовещенск.ДКС АмГПЗ 2-110.КЦ.Расход топливного газа</ParameterFullName>
+            <FastToolsTag>ASDU_ESG.2110.QTG.hour_24_aggr.finalValue</FastToolsTag>
+            <EU>тыс. м3</EU>
+            <HistoryGroup>MASDU_ESG_AGGR</HistoryGroup>
+        </DataRecord>
+
+
+        <DataRecord>
+            <id>89F1CF4CF8B53324E0530F93380AFD25</id>
+            <ParameterFullName>ГП ПРБ Благовещенск.ДКС АмГПЗ 2-110.КЦ.ГПА 2-110A.Расход газа</ParameterFullName>
+            <FastToolsTag>ASDU_ESG.2110.GPA1_Q.hour_24_aggr.finalValue</FastToolsTag>
+            <EU>тыс. м3</EU>
+            <HistoryGroup>MASDU_ESG_AGGR</HistoryGroup>
+        </DataRecord>
+        <DataRecord>
+            <id>89F1CF4CF8BF3324E0530F93380AFD25</id>
+            <ParameterFullName>ГП ПРБ Благовещенск.ДКС АмГПЗ 2-110.КЦ.ГПА 2-110A.Расход топливного газа
+            </ParameterFullName>
+            <FastToolsTag>ASDU_ESG.2110.GPA1_QTG.hour_24_aggr.finalValue</FastToolsTag>
+            <EU>тыс. м3</EU>
+            <HistoryGroup>MASDU_ESG_AGGR</HistoryGroup>
+        </DataRecord>
+
+
+        <DataRecord>
+            <id>89F1D54FC0F256B4E0530E93380A46E3</id>
+            <ParameterFullName>ГП ПРБ Благовещенск.ДКС АмГПЗ 2-110.КЦ.ГПА 2-110B.Расход газа</ParameterFullName>
+            <FastToolsTag>ASDU_ESG.2110.GPA2_Q.hour_24_aggr.finalValue</FastToolsTag>
+            <EU>тыс. м3</EU>
+            <HistoryGroup>MASDU_ESG_AGGR</HistoryGroup>
+        </DataRecord>
+        <DataRecord>
+            <id>89F1D54FC0FC56B4E0530E93380A46E3</id>
+            <ParameterFullName>ГП ПРБ Благовещенск.ДКС АмГПЗ 2-110.КЦ.ГПА 2-110B.Расход топливного газа
+            </ParameterFullName>
+            <FastToolsTag>ASDU_ESG.2110.GPA2_QTG.hour_24_aggr.finalValue</FastToolsTag>
+            <EU>тыс. м3</EU>
+            <HistoryGroup>MASDU_ESG_AGGR</HistoryGroup>
+        </DataRecord>
+
+
+        <DataRecord>
+            <id>C65BBF4EF18B0C18E0530F93380AB227</id>
+            <ParameterFullName>ГП ПРБ Благовещенск.ДКС АмГПЗ 3-110.КЦ.Расход газа</ParameterFullName>
+            <FastToolsTag>ASDU_ESG.3110.Q.hour_24_aggr.finalValue</FastToolsTag>
+            <EU>тыс. м3</EU>
+            <HistoryGroup>MASDU_ESG_AGGR</HistoryGroup>
+        </DataRecord>
+        <DataRecord>
+            <id>C65BBF4EF1B50C18E0530F93380AB227</id>
+            <ParameterFullName>ГП ПРБ Благовещенск.ДКС АмГПЗ 3-110.КЦ.Расход топливного газа</ParameterFullName>
+            <FastToolsTag>ASDU_ESG.3110.QTG.hour_24_aggr.finalValue</FastToolsTag>
+            <EU>тыс. м3</EU>
+            <HistoryGroup>MASDU_ESG_AGGR</HistoryGroup>
+        </DataRecord>
+
+
+        <DataRecord>
+            <id>89F1CF4CF9113324E0530F93380AFD25</id>
+            <ParameterFullName>ГП ПРБ Благовещенск.ДКС АмГПЗ 3-110.КЦ.ГПА 3-110A.Расход газа</ParameterFullName>
+            <FastToolsTag>ASDU_ESG.3110.GPA1_Q.hour_24_aggr.finalValue</FastToolsTag>
+            <EU>тыс. м3</EU>
+            <HistoryGroup>MASDU_ESG_AGGR</HistoryGroup>
+        </DataRecord>
+        <DataRecord>
+            <id>89F1CF4CF91B3324E0530F93380AFD25</id>
+            <ParameterFullName>ГП ПРБ Благовещенск.ДКС АмГПЗ 3-110.КЦ.ГПА 3-110A.Расход топливного газа
+            </ParameterFullName>
+            <FastToolsTag>ASDU_ESG.3110.GPA1_QTG.hour_24_aggr.finalValue</FastToolsTag>
+            <EU>тыс. м3</EU>
+            <HistoryGroup>MASDU_ESG_AGGR</HistoryGroup>
+        </DataRecord>
+
+
+        <DataRecord>
+            <id>89F1CF4CF96B3324E0530F93380AFD25</id>
+            <ParameterFullName>ГП ПРБ Благовещенск.ДКС АмГПЗ 3-110.КЦ.ГПА 3-110B.Расход газа</ParameterFullName>
+            <FastToolsTag>ASDU_ESG.3110.GPA2_Q.hour_24_aggr.finalValue</FastToolsTag>
+            <EU>тыс. м3</EU>
+            <HistoryGroup>MASDU_ESG_AGGR</HistoryGroup>
+        </DataRecord>
+        <DataRecord>
+            <id>89F1CF4CF9753324E0530F93380AFD25</id>
+            <ParameterFullName>ГП ПРБ Благовещенск.ДКС АмГПЗ 3-110.КЦ.ГПА 3-110B.Расход топливного газа
+            </ParameterFullName>
+            <FastToolsTag>ASDU_ESG.3110.GPA2_QTG.hour_24_aggr.finalValue</FastToolsTag>
+            <EU>тыс. м3</EU>
+            <HistoryGroup>MASDU_ESG_AGGR</HistoryGroup>
+        </DataRecord>
+
+
+        <DataRecord>
+            <id>C65CEEC27D071231E0530F93380AAEAE</id>
+            <ParameterFullName>ГП ПРБ Благовещенск.ДКС АмГПЗ 4-110.КЦ.Расход газа</ParameterFullName>
+            <FastToolsTag>ASDU_ESG.4110.Q.hour_24_aggr.finalValue</FastToolsTag>
+            <EU>тыс. м3</EU>
+            <HistoryGroup>MASDU_ESG_AGGR</HistoryGroup>
+        </DataRecord>
+        <DataRecord>
+            <id>C65CEEC27D311231E0530F93380AAEAE</id>
+            <ParameterFullName>ГП ПРБ Благовещенск.ДКС АмГПЗ 4-110.КЦ.Расход топливного газа</ParameterFullName>
+            <FastToolsTag>ASDU_ESG.4110.QTG.hour_24_aggr.finalValue</FastToolsTag>
+            <EU>тыс. м3</EU>
+            <HistoryGroup>MASDU_ESG_AGGR</HistoryGroup>
+        </DataRecord>
+
+
+        <DataRecord>
+            <id>89F1CF4CF9C53324E0530F93380AFD25</id>
+            <ParameterFullName>ГП ПРБ Благовещенск.ДКС АмГПЗ 4-110.КЦ.ГПА 4-110A.Расход газа</ParameterFullName>
+            <FastToolsTag>ASDU_ESG.4110.GPA1_Q.hour_24_aggr.finalValue</FastToolsTag>
+            <EU>тыс. м3</EU>
+            <HistoryGroup>MASDU_ESG_AGGR</HistoryGroup>
+        </DataRecord>
+        <DataRecord>
+            <id>89F1CF4CF9CF3324E0530F93380AFD25</id>
+            <ParameterFullName>ГП ПРБ Благовещенск.ДКС АмГПЗ 4-110.КЦ.ГПА 4-110A.Расход топливного газа
+            </ParameterFullName>
+            <FastToolsTag>ASDU_ESG.4110.GPA1_QTG.hour_24_aggr.finalValue</FastToolsTag>
+            <EU>тыс. м3</EU>
+            <HistoryGroup>MASDU_ESG_AGGR</HistoryGroup>
+        </DataRecord>
+
+
+        <DataRecord>
+            <id>89F1CF4CFA203324E0530F93380AFD25</id>
+            <ParameterFullName>ГП ПРБ Благовещенск.ДКС АмГПЗ 4-110.КЦ.ГПА 4-110B.Расход газа</ParameterFullName>
+            <FastToolsTag>ASDU_ESG.4110.GPA2_Q.hour_24_aggr.finalValue</FastToolsTag>
+            <EU>тыс. м3</EU>
+            <HistoryGroup>MASDU_ESG_AGGR</HistoryGroup>
+        </DataRecord>
+        <DataRecord>
+            <id>89F1CF4CFA2A3324E0530F93380AFD25</id>
+            <ParameterFullName>ГП ПРБ Благовещенск.ДКС АмГПЗ 4-110.КЦ.ГПА 4-110B.Расход топливного газа
+            </ParameterFullName>
+            <FastToolsTag>ASDU_ESG.4110.GPA2_QTG.hour_24_aggr.finalValue</FastToolsTag>
+            <EU>тыс. м3</EU>
+            <HistoryGroup>MASDU_ESG_AGGR</HistoryGroup>
+        </DataRecord>
+
+
+        <DataRecord>
+            <id>C65CD3FF5F622BF5E0530F93380A82F3</id>
+            <ParameterFullName>ГП ПРБ Благовещенск.ДКС АмГПЗ 5-110.КЦ.Расход газа</ParameterFullName>
+            <FastToolsTag>ASDU_ESG.5110.Q.hour_24_aggr.finalValue</FastToolsTag>
+            <EU>тыс. м3</EU>
+            <HistoryGroup>MASDU_ESG_AGGR</HistoryGroup>
+        </DataRecord>
+        <DataRecord>
+            <id>C65CD3FF5F8C2BF5E0530F93380A82F3</id>
+            <ParameterFullName>ГП ПРБ Благовещенск.ДКС АмГПЗ 5-110.КЦ.Расход топливного газа</ParameterFullName>
+            <FastToolsTag>ASDU_ESG.5110.QTG.hour_24_aggr.finalValue</FastToolsTag>
+            <EU>тыс. м3</EU>
+            <HistoryGroup>MASDU_ESG_AGGR</HistoryGroup>
+        </DataRecord>
+
+
+        <DataRecord>
+            <id>89F1CF4CFA7B3324E0530F93380AFD25</id>
+            <ParameterFullName>ГП ПРБ Благовещенск.ДКС АмГПЗ 5-110.КЦ.ГПА 5-110A.Расход газа</ParameterFullName>
+            <FastToolsTag>ASDU_ESG.5110.GPA1_Q.hour_24_aggr.finalValue</FastToolsTag>
+            <EU>тыс. м3</EU>
+            <HistoryGroup>MASDU_ESG_AGGR</HistoryGroup>
+        </DataRecord>
+        <DataRecord>
+            <id>89F1CF4CFA853324E0530F93380AFD25</id>
+            <ParameterFullName>ГП ПРБ Благовещенск.ДКС АмГПЗ 5-110.КЦ.ГПА 5-110A.Расход топливного газа
+            </ParameterFullName>
+            <FastToolsTag>ASDU_ESG.5110.GPA1_QTG.hour_24_aggr.finalValue</FastToolsTag>
+            <EU>тыс. м3</EU>
+            <HistoryGroup>MASDU_ESG_AGGR</HistoryGroup>
+        </DataRecord>
+
+
+        <DataRecord>
+            <id>89F1CF4CFAD53324E0530F93380AFD25</id>
+            <ParameterFullName>ГП ПРБ Благовещенск.ДКС АмГПЗ 5-110.КЦ.ГПА 5-110B.Расход газа</ParameterFullName>
+            <FastToolsTag>ASDU_ESG.5110.GPA2_Q.hour_24_aggr.finalValue</FastToolsTag>
+            <EU>тыс. м3</EU>
+            <HistoryGroup>MASDU_ESG_AGGR</HistoryGroup>
+        </DataRecord>
+        <DataRecord>
+            <id>89F1CF4CFADF3324E0530F93380AFD25</id>
+            <ParameterFullName>ГП ПРБ Благовещенск.ДКС АмГПЗ 5-110.КЦ.ГПА 5-110B.Расход топливного газа
+            </ParameterFullName>
+            <FastToolsTag>ASDU_ESG.5110.GPA2_QTG.hour_24_aggr.finalValue</FastToolsTag>
+            <EU>тыс. м3</EU>
+            <HistoryGroup>MASDU_ESG_AGGR</HistoryGroup>
+        </DataRecord>
+
+
+        <DataRecord>
+            <id>C65CEEC27E0C1231E0530F93380AAEAE</id>
+            <ParameterFullName>ГП ПРБ Благовещенск.ДКС АмГПЗ 6-110.КЦ.Расход газа</ParameterFullName>
+            <FastToolsTag>ASDU_ESG.6110.Q.hour_24_aggr.finalValue</FastToolsTag>
+            <EU>тыс. м3</EU>
+            <HistoryGroup>MASDU_ESG_AGGR</HistoryGroup>
+        </DataRecord>
+        <DataRecord>
+            <id>C65CEEC27E3E1231E0530F93380AAEAE</id>
+            <ParameterFullName>ГП ПРБ Благовещенск.ДКС АмГПЗ 6-110.КЦ.Расход топливного газа</ParameterFullName>
+            <FastToolsTag>ASDU_ESG.6110.QTG.hour_24_aggr.finalValue</FastToolsTag>
+            <EU>тыс. м3</EU>
+            <HistoryGroup>MASDU_ESG_AGGR</HistoryGroup>
+        </DataRecord>
+
+
+        <DataRecord>
+            <id>89F1CF4CFB313324E0530F93380AFD25</id>
+            <ParameterFullName>ГП ПРБ Благовещенск.ДКС АмГПЗ 6-110.КЦ.ГПА 6-110A.Расход газа</ParameterFullName>
+            <FastToolsTag>ASDU_ESG.6110.GPA1_Q.hour_24_aggr.finalValue</FastToolsTag>
+            <EU>тыс. м3</EU>
+            <HistoryGroup>MASDU_ESG_AGGR</HistoryGroup>
+        </DataRecord>
+        <DataRecord>
+            <id>89F1CF4CFB3B3324E0530F93380AFD25</id>
+            <ParameterFullName>ГП ПРБ Благовещенск.ДКС АмГПЗ 6-110.КЦ.ГПА 6-110A.Расход топливного газа
+            </ParameterFullName>
+            <FastToolsTag>ASDU_ESG.6110.GPA1_QTG.hour_24_aggr.finalValue</FastToolsTag>
+            <EU>тыс. м3</EU>
+            <HistoryGroup>MASDU_ESG_AGGR</HistoryGroup>
+        </DataRecord>
+
+
+        <DataRecord>
+            <id>89F0689E8AE06FE1E0530E93380AC213</id>
+            <ParameterFullName>ГП ПРБ Благовещенск.ДКС АмГПЗ 6-110.КЦ.ГПА 6-110B.Расход газа</ParameterFullName>
+            <FastToolsTag>ASDU_ESG.6110.GPA2_Q.hour_24_aggr.finalValue</FastToolsTag>
+            <EU>тыс. м3</EU>
+            <HistoryGroup>MASDU_ESG_AGGR</HistoryGroup>
+        </DataRecord>
+        <DataRecord>
+            <id>89F0689E8AEA6FE1E0530E93380AC213</id>
+            <ParameterFullName>ГП ПРБ Благовещенск.ДКС АмГПЗ 6-110.КЦ.ГПА 6-110B.Расход топливного газа
+            </ParameterFullName>
+            <FastToolsTag>ASDU_ESG.6110.GPA2_QTG.hour_24_aggr.finalValue</FastToolsTag>
+            <EU>тыс. м3</EU>
+            <HistoryGroup>MASDU_ESG_AGGR</HistoryGroup>
+        </DataRecord>
+
+        <DataRecord>
+            <id>C5FABF75A1682904E0530F93380A8485</id>
+            <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Группа входов от МГ СС (газ).Поступление сырья (тыс.м3)
+            </ParameterFullName>
+            <FastToolsTag>ASDU_ESG.192.Q_V.hour_24_aggr.finalValue</FastToolsTag>
+            <EU>тыс. м3</EU>
+            <HistoryGroup>MASDU_ESG_AGGR</HistoryGroup>
+        </DataRecord>
+        <DataRecord>
+            <id>80313AAE15E636AEE0530F93380AB898</id>
+            <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Вход на УУ 1-192 (газ).Поступление сырья (тыс.м3)
+            </ParameterFullName>
+            <FastToolsTag>ASDU_ESG.192.UNIT1.Q_V.hour_24_aggr.finalValue</FastToolsTag>
+            <EU>тыс. м3</EU>
+            <HistoryGroup>MASDU_ESG_AGGR</HistoryGroup>
+        </DataRecord>
+        <DataRecord>
+            <id>80314294B19B4E84E0530F93380A9012</id>
+            <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Вход на УУ 1-192 (газ).Давление сырья</ParameterFullName>
+            <FastToolsTag>ASDU_ESG.192.UNIT1.P.hour_24_aggr.finalValue</FastToolsTag>
+            <EU>кгс/см2</EU>
+            <HistoryGroup>MASDU_ESG_AGGR</HistoryGroup>
+        </DataRecord>
+        <DataRecord>
+            <id>80314294B1FC4E84E0530F93380A9012</id>
+            <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Вход на УУ 1-192 (газ).Температура сырья</ParameterFullName>
+            <FastToolsTag>ASDU_ESG.192.UNIT1.T.hour_24_aggr.finalValue</FastToolsTag>
+            <EU>C</EU>
+            <HistoryGroup>MASDU_ESG_AGGR</HistoryGroup>
+        </DataRecord>
+        <DataRecord>
+            <id>89EF86C752320655E0530F93380A96EA</id>
+            <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Вход на УУ 1-192 (газ).ФХП(н).Конц. Азота</ParameterFullName>
+            <FastToolsTag>ASDU_ESG.192.UNIT1.N2.hour_24_aggr.finalValue</FastToolsTag>
+            <EU>%</EU>
+            <HistoryGroup>MASDU_ESG_AGGR</HistoryGroup>
+        </DataRecord>
+        <DataRecord>
+            <id>89EF86C752280655E0530F93380A96EA</id>
+            <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Вход на УУ 1-192 (газ).ФХП(н).Конц. Диоксида углерода
+            </ParameterFullName>
+            <FastToolsTag>ASDU_ESG.192.UNIT1.CO2.hour_24_aggr.finalValue</FastToolsTag>
+            <EU>%</EU>
+            <HistoryGroup>MASDU_ESG_AGGR</HistoryGroup>
+        </DataRecord>
+        <DataRecord>
+            <id>89EF86C7523C0655E0530F93380A96EA</id>
+            <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Вход на УУ 1-192 (газ).ФХП(н).Конц. Кислорода
+            </ParameterFullName>
+            <FastToolsTag>ASDU_ESG.192.UNIT1.O2.hour_24_aggr.finalValue</FastToolsTag>
+            <EU>ppm</EU>
+            <HistoryGroup>MASDU_ESG_AGGR</HistoryGroup>
+        </DataRecord>
+        <DataRecord>
+            <id>89EF84660CF671C3E0530F93380A3380</id>
+            <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Вход на УУ 1-192 (газ).ФХП(н).Конц. Меркаптана
+            </ParameterFullName>
+            <FastToolsTag>ASDU_ESG.192.UNIT1.RSH.hour_24_aggr.finalValue</FastToolsTag>
+            <EU>мг/м3</EU>
+            <HistoryGroup>MASDU_ESG_AGGR</HistoryGroup>
+        </DataRecord>
+        <DataRecord>
+            <id>89EF84660C7871C3E0530F93380A3380</id>
+            <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Вход на УУ 1-192 (газ).ФХП(н).ТТР по воде</ParameterFullName>
+            <FastToolsTag>ASDU_ESG.192.UNIT1.TTRV.hour_24_aggr.finalValue</FastToolsTag>
+            <EU>C</EU>
+            <HistoryGroup>MASDU_ESG_AGGR</HistoryGroup>
+        </DataRecord>
+        <DataRecord>
+            <id>89EF17C08ACB5391E0530F93380ACCC6</id>
+            <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Вход на УУ 1-192 (газ).ФХП(н).ТТР по УВ</ParameterFullName>
+            <FastToolsTag>ASDU_ESG.192.UNIT1.TTRUV.hour_24_aggr.finalValue</FastToolsTag>
+            <EU>C</EU>
+            <HistoryGroup>MASDU_ESG_AGGR</HistoryGroup>
+        </DataRecord>
+        <DataRecord>
+            <id>89EF86C751F30655E0530F93380A96EA</id>
+            <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Вход на УУ 1-192 (газ).ФХП(н).ТС высшая</ParameterFullName>
+            <FastToolsTag>ASDU_ESG.192.UNIT1.HS.hour_24_aggr.finalValue</FastToolsTag>
+            <EU>МДж/м3</EU>
+            <HistoryGroup>MASDU_ESG_AGGR</HistoryGroup>
+        </DataRecord>
+        <DataRecord>
+            <id>89EF84660C8271C3E0530F93380A3380</id>
+            <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Вход на УУ 1-192 (газ).ФХП(н).ТС низшая</ParameterFullName>
+            <FastToolsTag>ASDU_ESG.192.UNIT1.HI.hour_24_aggr.finalValue</FastToolsTag>
+            <EU>МДж/м3</EU>
+            <HistoryGroup>MASDU_ESG_AGGR</HistoryGroup>
+        </DataRecord>
+        <DataRecord>
+            <id>89EF84660C9871C3E0530F93380A3380</id>
+            <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Вход на УУ 1-192 (газ).ФХП(н).Конц. Метана</ParameterFullName>
+            <FastToolsTag>ASDU_ESG.192.UNIT1.CH4.hour_24_aggr.finalValue</FastToolsTag>
+            <EU>%</EU>
+            <HistoryGroup>MASDU_ESG_AGGR</HistoryGroup>
+        </DataRecord>
+        <DataRecord>
+            <id>89EF86C751FD0655E0530F93380A96EA</id>
+            <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Вход на УУ 1-192 (газ).ФХП(н).Конц. Этана</ParameterFullName>
+            <FastToolsTag>ASDU_ESG.192.UNIT1.C2H6.hour_24_aggr.finalValue</FastToolsTag>
+            <EU>%</EU>
+            <HistoryGroup>MASDU_ESG_AGGR</HistoryGroup>
+        </DataRecord>
+        <DataRecord>
+            <id>89EF86C752120655E0530F93380A96EA</id>
+            <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Вход на УУ 1-192 (газ).ФХП(н).Конц. Пропана</ParameterFullName>
+            <FastToolsTag>ASDU_ESG.192.UNIT1.C3H8.hour_24_aggr.finalValue</FastToolsTag>
+            <EU>%</EU>
+            <HistoryGroup>MASDU_ESG_AGGR</HistoryGroup>
+        </DataRecord>
+        <DataRecord>
+            <id>89EF84660CE271C3E0530F93380A3380</id>
+            <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Вход на УУ 1-192 (газ).ФХП(н).Конц. Гексана и ВУВ
+            </ParameterFullName>
+            <FastToolsTag>ASDU_ESG.192.UNIT1.C6H14PLUS.hour_24_aggr.finalValue</FastToolsTag>
+            <EU>%</EU>
+            <HistoryGroup>MASDU_ESG_AGGR</HistoryGroup>
+        </DataRecord>
+        <DataRecord>
+            <id>89EF84660CAE71C3E0530F93380A3380</id>
+            <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Вход на УУ 1-192 (газ).ФХП(н).Конц. Изобутана
+            </ParameterFullName>
+            <FastToolsTag>ASDU_ESG.192.UNIT1.I_C4H10.hour_24_aggr.finalValue</FastToolsTag>
+            <EU>%</EU>
+            <HistoryGroup>MASDU_ESG_AGGR</HistoryGroup>
+        </DataRecord>
+        <DataRecord>
+            <id>89EF84660CCE71C3E0530F93380A3380</id>
+            <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Вход на УУ 1-192 (газ).ФХП(н).Конц. Изопентана
+            </ParameterFullName>
+            <FastToolsTag>ASDU_ESG.192.UNIT1.I_C5H12.hour_24_aggr.finalValue</FastToolsTag>
+            <EU>%</EU>
+            <HistoryGroup>MASDU_ESG_AGGR</HistoryGroup>
+        </DataRecord>
+        <DataRecord>
+            <id>89EF84660CB871C3E0530F93380A3380</id>
+            <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Вход на УУ 1-192 (газ).ФХП(н).Конц. n-Бутана
+            </ParameterFullName>
+            <FastToolsTag>ASDU_ESG.192.UNIT1.N2_C4H10.hour_24_aggr.finalValue</FastToolsTag>
+            <EU>%</EU>
+            <HistoryGroup>MASDU_ESG_AGGR</HistoryGroup>
+        </DataRecord>
+        <DataRecord>
+            <id>89EF84660CD871C3E0530F93380A3380</id>
+            <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Вход на УУ 1-192 (газ).ФХП(н).Конц. n-Пентана
+            </ParameterFullName>
+            <FastToolsTag>ASDU_ESG.192.UNIT1.N_C5H12.hour_24_aggr.finalValue</FastToolsTag>
+            <EU>%</EU>
+            <HistoryGroup>MASDU_ESG_AGGR</HistoryGroup>
+        </DataRecord>
+        <DataRecord>
+            <id>89EEBD600C2B18BFE0530F93380AA347</id>
+            <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Вход на УУ 1-192 (газ).ФХП(н).Конц. Неопентана
+            </ParameterFullName>
+            <FastToolsTag>ASDU_ESG.192.UNIT1.NEO_C5H12.hour_24_aggr.finalValue</FastToolsTag>
+            <EU>%</EU>
+            <HistoryGroup>MASDU_ESG_AGGR</HistoryGroup>
+        </DataRecord>
+        <DataRecord>
+            <id>89EF86C752460655E0530F93380A96EA</id>
+            <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Вход на УУ 1-192 (газ).ФХП(н).Конц. Гелия</ParameterFullName>
+            <FastToolsTag>ASDU_ESG.192.UNIT1.HE.hour_24_aggr.finalValue</FastToolsTag>
+            <EU>%</EU>
+            <HistoryGroup>MASDU_ESG_AGGR</HistoryGroup>
+        </DataRecord>
+        <DataRecord>
+            <id>AD4F3E61492757AEE0530E93380A9263</id>
+            <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Вход на УУ 1-192 (газ).ФХП(н).Плотность при СУ
+            </ParameterFullName>
+            <FastToolsTag>ASDU_ESG.192.UNIT1.RO_ST.hour_24_aggr.finalValue</FastToolsTag>
+            <EU>кг/м3</EU>
+            <HistoryGroup>MASDU_ESG_AGGR</HistoryGroup>
+        </DataRecord>
+        <DataRecord>
+            <id>89F167DAEEED5CCEE0530F93380A9209</id>
+            <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Вход на УУ 1-192 (газ).ФХП(н).Конц. Серы</ParameterFullName>
+            <FastToolsTag>ASDU_ESG.192.UNIT1.S.hour_24_aggr.finalValue</FastToolsTag>
+            <EU>мг/м3</EU>
+            <HistoryGroup>MASDU_ESG_AGGR</HistoryGroup>
+        </DataRecord>
+        <DataRecord>
+            <id>89EF84660CEC71C3E0530F93380A3380</id>
+            <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Вход на УУ 1-192 (газ).ФХП(н).Конц. Сероводорода
+            </ParameterFullName>
+            <FastToolsTag>ASDU_ESG.192.UNIT1.H2S.hour_24_aggr.finalValue</FastToolsTag>
+            <EU>мг/м3</EU>
+            <HistoryGroup>MASDU_ESG_AGGR</HistoryGroup>
+        </DataRecord>
+        <DataRecord>
+            <id>C5FB390065550F00E0530E93380AC280</id>
+            <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Вход на УУ 2-192 (газ).Поступление сырья (тыс.м3)
+            </ParameterFullName>
+            <FastToolsTag>ASDU_ESG.192.UNIT2.Q_V.hour_24_aggr.finalValue</FastToolsTag>
+            <EU>тыс. м3</EU>
+            <HistoryGroup>MASDU_ESG_AGGR</HistoryGroup>
+        </DataRecord>
+        <DataRecord>
+            <id>C5FACF2F1B616EA6E0530F93380AB944</id>
+            <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Вход на УУ 2-192 (газ).Давление сырья</ParameterFullName>
+            <FastToolsTag>ASDU_ESG.192.UNIT2.P.hour_24_aggr.finalValue</FastToolsTag>
+            <EU>кгс/см2</EU>
+            <HistoryGroup>MASDU_ESG_AGGR</HistoryGroup>
+        </DataRecord>
+        <DataRecord>
+            <id>C5FB3900655F0F00E0530E93380AC280</id>
+            <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Вход на УУ 2-192 (газ).Температура сырья</ParameterFullName>
+            <FastToolsTag>ASDU_ESG.192.UNIT2.T.hour_24_aggr.finalValue</FastToolsTag>
+            <EU>C</EU>
+            <HistoryGroup>MASDU_ESG_AGGR</HistoryGroup>
+        </DataRecord>
+        <DataRecord>
+            <id>C5FA12E9CEA03590E0530F93380A2013</id>
+            <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Вход на УУ 2-192 (газ).ФХП(н).Конц. Азота</ParameterFullName>
+            <FastToolsTag>ASDU_ESG.192.UNIT2.N2.hour_24_aggr.finalValue</FastToolsTag>
+            <EU>%</EU>
+            <HistoryGroup>MASDU_ESG_AGGR</HistoryGroup>
+        </DataRecord>
+        <DataRecord>
+            <id>C5FA12E9CE003590E0530F93380A2013</id>
+            <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Вход на УУ 2-192 (газ).ФХП(н).Конц. Диоксида углерода
+            </ParameterFullName>
+            <FastToolsTag>ASDU_ESG.192.UNIT2.CO2.hour_24_aggr.finalValue</FastToolsTag>
+            <EU>%</EU>
+            <HistoryGroup>MASDU_ESG_AGGR</HistoryGroup>
+        </DataRecord>
+        <DataRecord>
+            <id>C5FA12E9CE5A3590E0530F93380A2013</id>
+            <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Вход на УУ 2-192 (газ).ФХП(н).Конц. Кислорода
+            </ParameterFullName>
+            <FastToolsTag>ASDU_ESG.192.UNIT2.O2.hour_24_aggr.finalValue</FastToolsTag>
+            <EU>ppm</EU>
+            <HistoryGroup>MASDU_ESG_AGGR</HistoryGroup>
+        </DataRecord>
+        <DataRecord>
+            <id>C5FA12E9CE143590E0530F93380A2013</id>
+            <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Вход на УУ 2-192 (газ).ФХП(н).Конц. Меркаптана
+            </ParameterFullName>
+            <FastToolsTag>ASDU_ESG.192.UNIT2.RSH.hour_24_aggr.finalValue</FastToolsTag>
+            <EU>мг/м3</EU>
+            <HistoryGroup>MASDU_ESG_AGGR</HistoryGroup>
+        </DataRecord>
+        <DataRecord>
+            <id>C5FA12E9CE823590E0530F93380A2013</id>
+            <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Вход на УУ 2-192 (газ).ФХП(н).ТТР по воде</ParameterFullName>
+            <FastToolsTag>ASDU_ESG.192.UNIT2.TTRV.hour_24_aggr.finalValue</FastToolsTag>
+            <EU>C</EU>
+            <HistoryGroup>MASDU_ESG_AGGR</HistoryGroup>
+        </DataRecord>
+        <DataRecord>
+            <id>C5FA12E9CE323590E0530F93380A2013</id>
+            <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Вход на УУ 2-192 (газ).ФХП(н).ТТР по УВ</ParameterFullName>
+            <FastToolsTag>ASDU_ESG.192.UNIT2.TTRUV.hour_24_aggr.finalValue</FastToolsTag>
+            <EU>C</EU>
+            <HistoryGroup>MASDU_ESG_AGGR</HistoryGroup>
+        </DataRecord>
+        <DataRecord>
+            <id>C5FA12E9CE503590E0530F93380A2013</id>
+            <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Вход на УУ 2-192 (газ).ФХП(н).ТС высшая</ParameterFullName>
+            <FastToolsTag>ASDU_ESG.192.UNIT2.HS.hour_24_aggr.finalValue</FastToolsTag>
+            <EU>МДж/м3</EU>
+            <HistoryGroup>MASDU_ESG_AGGR</HistoryGroup>
+        </DataRecord>
+        <DataRecord>
+            <id>C5FA12E9CE283590E0530F93380A2013</id>
+            <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Вход на УУ 2-192 (газ).ФХП(н).ТС низшая</ParameterFullName>
+            <FastToolsTag>ASDU_ESG.192.UNIT2.HI.hour_24_aggr.finalValue</FastToolsTag>
+            <EU>МДж/м3</EU>
+            <HistoryGroup>MASDU_ESG_AGGR</HistoryGroup>
+        </DataRecord>
+        <DataRecord>
+            <id>C5FA12E9CDEC3590E0530F93380A2013</id>
+            <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Вход на УУ 2-192 (газ).ФХП(н).Конц. Метана</ParameterFullName>
+            <FastToolsTag>ASDU_ESG.192.UNIT2.CH4.hour_24_aggr.finalValue</FastToolsTag>
+            <EU>%</EU>
+            <HistoryGroup>MASDU_ESG_AGGR</HistoryGroup>
+        </DataRecord>
+        <DataRecord>
+            <id>C5FA12E9CE3C3590E0530F93380A2013</id>
+            <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Вход на УУ 2-192 (газ).ФХП(н).Конц. Этана</ParameterFullName>
+            <FastToolsTag>ASDU_ESG.192.UNIT2.C2H6.hour_24_aggr.finalValue</FastToolsTag>
+            <EU>%</EU>
+            <HistoryGroup>MASDU_ESG_AGGR</HistoryGroup>
+        </DataRecord>
+        <DataRecord>
+            <id>C5FA12E9CE643590E0530F93380A2013</id>
+            <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Вход на УУ 2-192 (газ).ФХП(н).Конц. Пропана</ParameterFullName>
+            <FastToolsTag>ASDU_ESG.192.UNIT2.C3H8.hour_24_aggr.finalValue</FastToolsTag>
+            <EU>%</EU>
+            <HistoryGroup>MASDU_ESG_AGGR</HistoryGroup>
+        </DataRecord>
+        <DataRecord>
+            <id>C5FA12E9CEB43590E0530F93380A2013</id>
+            <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Вход на УУ 2-192 (газ).ФХП(н).Конц. Гексана и ВУВ
+            </ParameterFullName>
+            <FastToolsTag>ASDU_ESG.192.UNIT2.C6H14PLUS.hour_24_aggr.finalValue</FastToolsTag>
+            <EU>%</EU>
+            <HistoryGroup>MASDU_ESG_AGGR</HistoryGroup>
+        </DataRecord>
+        <DataRecord>
+            <id>C5FA12E9CE0A3590E0530F93380A2013</id>
+            <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Вход на УУ 2-192 (газ).ФХП(н).Конц. Изобутана
+            </ParameterFullName>
+            <FastToolsTag>ASDU_ESG.192.UNIT2.I_C4H10.hour_24_aggr.finalValue</FastToolsTag>
+            <EU>%</EU>
+            <HistoryGroup>MASDU_ESG_AGGR</HistoryGroup>
+        </DataRecord>
+        <DataRecord>
+            <id>C5FA12E9CE8C3590E0530F93380A2013</id>
+            <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Вход на УУ 2-192 (газ).ФХП(н).Конц. Изопентана
+            </ParameterFullName>
+            <FastToolsTag>ASDU_ESG.192.UNIT2.I_C5H12.hour_24_aggr.finalValue</FastToolsTag>
+            <EU>%</EU>
+            <HistoryGroup>MASDU_ESG_AGGR</HistoryGroup>
+        </DataRecord>
+        <DataRecord>
+            <id>C5FA12E9CEAA3590E0530F93380A2013</id>
+            <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Вход на УУ 2-192 (газ).ФХП(н).Конц. n-Бутана
+            </ParameterFullName>
+            <FastToolsTag>ASDU_ESG.192.UNIT2.N2_C4H10.hour_24_aggr.finalValue</FastToolsTag>
+            <EU>%</EU>
+            <HistoryGroup>MASDU_ESG_AGGR</HistoryGroup>
+        </DataRecord>
+        <DataRecord>
+            <id>C5FA12E9CE1E3590E0530F93380A2013</id>
+            <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Вход на УУ 2-192 (газ).ФХП(н).Конц. n-Пентана
+            </ParameterFullName>
+            <FastToolsTag>ASDU_ESG.192.UNIT2.N_C5H12.hour_24_aggr.finalValue</FastToolsTag>
+            <EU>%</EU>
+            <HistoryGroup>MASDU_ESG_AGGR</HistoryGroup>
+        </DataRecord>
+        <DataRecord>
+            <id>C5FA12E9CE963590E0530F93380A2013</id>
+            <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Вход на УУ 2-192 (газ).ФХП(н).Конц. Неопентана
+            </ParameterFullName>
+            <FastToolsTag>ASDU_ESG.192.UNIT2.NEO_C5H12.hour_24_aggr.finalValue</FastToolsTag>
+            <EU>%</EU>
+            <HistoryGroup>MASDU_ESG_AGGR</HistoryGroup>
+        </DataRecord>
+        <DataRecord>
+            <id>C5FA12E9CDF63590E0530F93380A2013</id>
+            <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Вход на УУ 2-192 (газ).ФХП(н).Конц. Гелия</ParameterFullName>
+            <FastToolsTag>ASDU_ESG.192.UNIT2.HE.hour_24_aggr.finalValue</FastToolsTag>
+            <EU>%</EU>
+            <HistoryGroup>MASDU_ESG_AGGR</HistoryGroup>
+        </DataRecord>
+        <DataRecord>
+            <id>C5FA12E9CE463590E0530F93380A2013</id>
+            <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Вход на УУ 2-192 (газ).ФХП(н).Плотность при СУ
+            </ParameterFullName>
+            <FastToolsTag>ASDU_ESG.192.UNIT2.RO_ST.hour_24_aggr.finalValue</FastToolsTag>
+            <EU>кг/м3</EU>
+            <HistoryGroup>MASDU_ESG_AGGR</HistoryGroup>
+        </DataRecord>
+        <DataRecord>
+            <id>C5FA12E9CE783590E0530F93380A2013</id>
+            <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Вход на УУ 2-192 (газ).ФХП(н).Конц. Серы</ParameterFullName>
+            <FastToolsTag>ASDU_ESG.192.UNIT2.S.hour_24_aggr.finalValue</FastToolsTag>
+            <EU>мг/м3</EU>
+            <HistoryGroup>MASDU_ESG_AGGR</HistoryGroup>
+        </DataRecord>
+        <DataRecord>
+            <id>C5FA12E9CE6E3590E0530F93380A2013</id>
+            <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Вход на УУ 2-192 (газ).ФХП(н).Конц. Сероводорода
+            </ParameterFullName>
+            <FastToolsTag>ASDU_ESG.192.UNIT2.H2S.hour_24_aggr.finalValue</FastToolsTag>
+            <EU>мг/м3</EU>
+            <HistoryGroup>MASDU_ESG_AGGR</HistoryGroup>
+        </DataRecord>
+        <DataRecord>
+            <id>80351DC449F928FDE0530F93380AA987</id>
+            <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Группа выходов в МГ СС (газ).Поставка продукта (тыс.м3)
+            </ParameterFullName>
+            <FastToolsTag>ASDU_ESG.190.Q_V.hour_24_aggr.finalValue</FastToolsTag>
+            <EU>тыс. м3</EU>
+            <HistoryGroup>MASDU_ESG_AGGR</HistoryGroup>
+        </DataRecord>
+        <DataRecord>
+            <id>C287BD9CC32779FDE0530E93380AABCA</id>
+            <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Выход с УУ 1-190 (газ).Поставка продукта (тыс.м3)
+            </ParameterFullName>
+            <FastToolsTag>ASDU_ESG.190.UNIT1.Q_V.hour_24_aggr.finalValue</FastToolsTag>
+            <EU>тыс. м3</EU>
+            <HistoryGroup>MASDU_ESG_AGGR</HistoryGroup>
+        </DataRecord>
+        <DataRecord>
+            <id>803512304EB06DF3E0530E93380A2C3A</id>
+            <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Выход с УУ 1-190 (газ).Давление продукта</ParameterFullName>
+            <FastToolsTag>ASDU_ESG.190.UNIT1.P.hour_24_aggr.finalValue</FastToolsTag>
+            <EU>кгс/см2</EU>
+            <HistoryGroup>MASDU_ESG_AGGR</HistoryGroup>
+        </DataRecord>
+        <DataRecord>
+            <id>80351DC44A0328FDE0530F93380AA987</id>
+            <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Выход с УУ 1-190 (газ).Температура продукта</ParameterFullName>
+            <FastToolsTag>ASDU_ESG.190.UNIT1.T.hour_24_aggr.finalValue</FastToolsTag>
+            <EU>C</EU>
+            <HistoryGroup>MASDU_ESG_AGGR</HistoryGroup>
+        </DataRecord>
+        <DataRecord>
+            <id>89EF84660D0671C3E0530F93380A3380</id>
+            <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Выход с УУ 1-190 (газ).ФХП(н).ТТР по УВ</ParameterFullName>
+            <FastToolsTag>ASDU_ESG.190.UNIT1.TTRUV.hour_24_aggr.finalValue</FastToolsTag>
+            <EU>C</EU>
+            <HistoryGroup>MASDU_ESG_AGGR</HistoryGroup>
+        </DataRecord>
+        <DataRecord>
+            <id>89EF86C752500655E0530F93380A96EA</id>
+            <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Выход с УУ 1-190 (газ).ФХП(н).ТТР по воде</ParameterFullName>
+            <FastToolsTag>ASDU_ESG.190.UNIT1.TTRV.hour_24_aggr.finalValue</FastToolsTag>
+            <EU>C</EU>
+            <HistoryGroup>MASDU_ESG_AGGR</HistoryGroup>
+        </DataRecord>
+        <DataRecord>
+            <id>89EF86C7525A0655E0530F93380A96EA</id>
+            <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Выход с УУ 1-190 (газ).ФХП(н).ТС низшая</ParameterFullName>
+            <FastToolsTag>ASDU_ESG.190.UNIT1.HI.hour_24_aggr.finalValue</FastToolsTag>
+            <EU>МДж/м3</EU>
+            <HistoryGroup>MASDU_ESG_AGGR</HistoryGroup>
+        </DataRecord>
+        <DataRecord>
+            <id>89EF84660DA371C3E0530F93380A3380</id>
+            <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Выход с УУ 1-190 (газ).ФХП(н).ТС высшая</ParameterFullName>
+            <FastToolsTag>ASDU_ESG.190.UNIT1.HS.hour_24_aggr.finalValue</FastToolsTag>
+            <EU>МДж/м3</EU>
+            <HistoryGroup>MASDU_ESG_AGGR</HistoryGroup>
+        </DataRecord>
+        <DataRecord>
+            <id>89EF84660DAE71C3E0530F93380A3380</id>
+            <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Выход с УУ 1-190 (газ).ФХП(н).Конц. Метана</ParameterFullName>
+            <FastToolsTag>ASDU_ESG.190.UNIT1.CH4.hour_24_aggr.finalValue</FastToolsTag>
+            <EU>%</EU>
+            <HistoryGroup>MASDU_ESG_AGGR</HistoryGroup>
+        </DataRecord>
+        <DataRecord>
+            <id>89EF86C752650655E0530F93380A96EA</id>
+            <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Выход с УУ 1-190 (газ).ФХП(н).Конц. Этана</ParameterFullName>
+            <FastToolsTag>ASDU_ESG.190.UNIT1.C2H6.hour_24_aggr.finalValue</FastToolsTag>
+            <EU>%</EU>
+            <HistoryGroup>MASDU_ESG_AGGR</HistoryGroup>
+        </DataRecord>
+        <DataRecord>
+            <id>89EF84660DB971C3E0530F93380A3380</id>
+            <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Выход с УУ 1-190 (газ).ФХП(н).Конц. Пропана</ParameterFullName>
+            <FastToolsTag>ASDU_ESG.190.UNIT1.C3H8.hour_24_aggr.finalValue</FastToolsTag>
+            <EU>%</EU>
+            <HistoryGroup>MASDU_ESG_AGGR</HistoryGroup>
+        </DataRecord>
+        <DataRecord>
+            <id>89EF86C7527A0655E0530F93380A96EA</id>
+            <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Выход с УУ 1-190 (газ).ФХП(н).Конц. Гексана и ВУВ
+            </ParameterFullName>
+            <FastToolsTag>ASDU_ESG.190.UNIT1.C6H14PLUS.hour_24_aggr.finalValue</FastToolsTag>
+            <EU>%</EU>
+            <HistoryGroup>MASDU_ESG_AGGR</HistoryGroup>
+        </DataRecord>
+        <DataRecord>
+            <id>89EFB6AB75244A13E0530E93380ACF45</id>
+            <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Выход с УУ 1-190 (газ).ФХП(н).Конц. Изобутана
+            </ParameterFullName>
+            <FastToolsTag>ASDU_ESG.190.UNIT1.I_C4H10.hour_24_aggr.finalValue</FastToolsTag>
+            <EU>%</EU>
+            <HistoryGroup>MASDU_ESG_AGGR</HistoryGroup>
+        </DataRecord>
+        <DataRecord>
+            <id>89EF86C752700655E0530F93380A96EA</id>
+            <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Выход с УУ 1-190 (газ).ФХП(н).Конц. Изопентана
+            </ParameterFullName>
+            <FastToolsTag>ASDU_ESG.190.UNIT1.I_C5H12.hour_24_aggr.finalValue</FastToolsTag>
+            <EU>%</EU>
+            <HistoryGroup>MASDU_ESG_AGGR</HistoryGroup>
+        </DataRecord>
+        <DataRecord>
+            <id>89EFB7CEF1BD0D20E0530F93380A3EA2</id>
+            <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Выход с УУ 1-190 (газ).ФХП(н).Конц. n-Бутана
+            </ParameterFullName>
+            <FastToolsTag>ASDU_ESG.190.UNIT1.N2_C4H10.hour_24_aggr.finalValue</FastToolsTag>
+            <EU>%</EU>
+            <HistoryGroup>MASDU_ESG_AGGR</HistoryGroup>
+        </DataRecord>
+        <DataRecord>
+            <id>89EF84660DD171C3E0530F93380A3380</id>
+            <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Выход с УУ 1-190 (газ).ФХП(н).Конц. n-Пентана
+            </ParameterFullName>
+            <FastToolsTag>ASDU_ESG.190.UNIT1.N_C5H12.hour_24_aggr.finalValue</FastToolsTag>
+            <EU>%</EU>
+            <HistoryGroup>MASDU_ESG_AGGR</HistoryGroup>
+        </DataRecord>
+        <DataRecord>
+            <id>89EF86C752840655E0530F93380A96EA</id>
+            <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Выход с УУ 1-190 (газ).ФХП(н).Конц. Диоксида углерода
+            </ParameterFullName>
+            <FastToolsTag>ASDU_ESG.190.UNIT1.CO2.hour_24_aggr.finalValue</FastToolsTag>
+            <EU>%</EU>
+            <HistoryGroup>MASDU_ESG_AGGR</HistoryGroup>
+        </DataRecord>
+        <DataRecord>
+            <id>89EF86C7528E0655E0530F93380A96EA</id>
+            <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Выход с УУ 1-190 (газ).ФХП(н).Конц. Азота</ParameterFullName>
+            <FastToolsTag>ASDU_ESG.190.UNIT1.N2.hour_24_aggr.finalValue</FastToolsTag>
+            <EU>%</EU>
+            <HistoryGroup>MASDU_ESG_AGGR</HistoryGroup>
+        </DataRecord>
+        <DataRecord>
+            <id>89EF84660DC471C3E0530F93380A3380</id>
+            <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Выход с УУ 1-190 (газ).ФХП(н).Конц. Неопентана
+            </ParameterFullName>
+            <FastToolsTag>ASDU_ESG.190.UNIT1.NEO_C5H12.hour_24_aggr.finalValue</FastToolsTag>
+            <EU>%</EU>
+            <HistoryGroup>MASDU_ESG_AGGR</HistoryGroup>
+        </DataRecord>
+        <DataRecord>
+            <id>89EF84660DE671C3E0530F93380A3380</id>
+            <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Выход с УУ 1-190 (газ).ФХП(н).Конц. Гелия</ParameterFullName>
+            <FastToolsTag>ASDU_ESG.190.UNIT1.HE.hour_24_aggr.finalValue</FastToolsTag>
+            <EU>%</EU>
+            <HistoryGroup>MASDU_ESG_AGGR</HistoryGroup>
+        </DataRecord>
+        <DataRecord>
+            <id>89EF66E59AFC462CE0530F93380A591B</id>
+            <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Выход с УУ 1-190 (газ).ФХП(н).Конц. Кислорода
+            </ParameterFullName>
+            <FastToolsTag>ASDU_ESG.190.UNIT1.O2.hour_24_aggr.finalValue</FastToolsTag>
+            <EU>ppm</EU>
+            <HistoryGroup>MASDU_ESG_AGGR</HistoryGroup>
+        </DataRecord>
+        <DataRecord>
+            <id>AD4F3E61493857AEE0530E93380A9263</id>
+            <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Выход с УУ 1-190 (газ).ФХП(н).Плотность при СУ
+            </ParameterFullName>
+            <FastToolsTag>ASDU_ESG.190.UNIT1.RO_ST.hour_24_aggr.finalValue</FastToolsTag>
+            <EU>кг/м3</EU>
+            <HistoryGroup>MASDU_ESG_AGGR</HistoryGroup>
+        </DataRecord>
+        <DataRecord>
+            <id>89EFB7CEF1C70D20E0530F93380A3EA2</id>
+            <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Выход с УУ 1-190 (газ).ФХП(н).Конц. Меркаптана
+            </ParameterFullName>
+            <FastToolsTag>ASDU_ESG.190.UNIT1.RSH.hour_24_aggr.finalValue</FastToolsTag>
+            <EU>мг/м3</EU>
+            <HistoryGroup>MASDU_ESG_AGGR</HistoryGroup>
+        </DataRecord>
+        <DataRecord>
+            <id>89F158D947392762E0530F93380A1E4C</id>
+            <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Выход с УУ 1-190 (газ).ФХП(н).Конц. Серы</ParameterFullName>
+            <FastToolsTag>ASDU_ESG.190.UNIT1.S.hour_24_aggr.finalValue</FastToolsTag>
+            <EU>мг/м3</EU>
+            <HistoryGroup>MASDU_ESG_AGGR</HistoryGroup>
+        </DataRecord>
+        <DataRecord>
+            <id>89EF84660DDC71C3E0530F93380A3380</id>
+            <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Выход с УУ 1-190 (газ).ФХП(н).Конц. Сероводорода
+            </ParameterFullName>
+            <FastToolsTag>ASDU_ESG.190.UNIT1.H2S.hour_24_aggr.finalValue</FastToolsTag>
+            <EU>мг/м3</EU>
+            <HistoryGroup>MASDU_ESG_AGGR</HistoryGroup>
+        </DataRecord>
+        <DataRecord>
+            <id>C287DCCD97880FA7E0530E93380AC24E</id>
+            <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Выход с УУ 2-190 (газ).Поставка продукта (тыс.м3)
+            </ParameterFullName>
+            <FastToolsTag>ASDU_ESG.190.UNIT2.Q_V.hour_24_aggr.finalValue</FastToolsTag>
+            <EU>тыс. м3</EU>
+            <HistoryGroup>MASDU_ESG_AGGR</HistoryGroup>
+        </DataRecord>
+        <DataRecord>
+            <id>C287DCCD97280FA7E0530E93380AC24E</id>
+            <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Выход с УУ 2-190 (газ).Давление продукта</ParameterFullName>
+            <FastToolsTag>ASDU_ESG.190.UNIT2.P.hour_24_aggr.finalValue</FastToolsTag>
+            <EU>кгс/см2</EU>
+            <HistoryGroup>MASDU_ESG_AGGR</HistoryGroup>
+        </DataRecord>
+        <DataRecord>
+            <id>C287DCCD97940FA7E0530E93380AC24E</id>
+            <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Выход с УУ 2-190 (газ).Температура продукта</ParameterFullName>
+            <FastToolsTag>ASDU_ESG.190.UNIT2.T.hour_24_aggr.finalValue</FastToolsTag>
+            <EU>C</EU>
+            <HistoryGroup>MASDU_ESG_AGGR</HistoryGroup>
+        </DataRecord>
+        <DataRecord>
+            <id>C287D941F52039B0E0530F93380A486E</id>
+            <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Выход с УУ 2-190 (газ).ФХП(н).ТТР по УВ</ParameterFullName>
+            <FastToolsTag>ASDU_ESG.190.UNIT2.TTRUV.hour_24_aggr.finalValue</FastToolsTag>
+            <EU>C</EU>
+            <HistoryGroup>MASDU_ESG_AGGR</HistoryGroup>
+        </DataRecord>
+        <DataRecord>
+            <id>C287D941F51439B0E0530F93380A486E</id>
+            <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Выход с УУ 2-190 (газ).ФХП(н).ТТР по воде</ParameterFullName>
+            <FastToolsTag>ASDU_ESG.190.UNIT2.TTRV.hour_24_aggr.finalValue</FastToolsTag>
+            <EU>C</EU>
+            <HistoryGroup>MASDU_ESG_AGGR</HistoryGroup>
+        </DataRecord>
+        <DataRecord>
+            <id>C287D941F52C39B0E0530F93380A486E</id>
+            <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Выход с УУ 2-190 (газ).ФХП(н).ТС низшая</ParameterFullName>
+            <FastToolsTag>ASDU_ESG.190.UNIT2.HI.hour_24_aggr.finalValue</FastToolsTag>
+            <EU>МДж/м3</EU>
+            <HistoryGroup>MASDU_ESG_AGGR</HistoryGroup>
+        </DataRecord>
+        <DataRecord>
+            <id>C287DCCD97A10FA7E0530E93380AC24E</id>
+            <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Выход с УУ 2-190 (газ).ФХП(н).ТС высшая</ParameterFullName>
+            <FastToolsTag>ASDU_ESG.190.UNIT2.HS.hour_24_aggr.finalValue</FastToolsTag>
+            <EU>МДж/м3</EU>
+            <HistoryGroup>MASDU_ESG_AGGR</HistoryGroup>
+        </DataRecord>
+        <DataRecord>
+            <id>C287D941F4D839B0E0530F93380A486E</id>
+            <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Выход с УУ 2-190 (газ).ФХП(н).Конц. Метана</ParameterFullName>
+            <FastToolsTag>ASDU_ESG.190.UNIT2.CH4.hour_24_aggr.finalValue</FastToolsTag>
+            <EU>%</EU>
+            <HistoryGroup>MASDU_ESG_AGGR</HistoryGroup>
+        </DataRecord>
+        <DataRecord>
+            <id>C287D941F4FC39B0E0530F93380A486E</id>
+            <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Выход с УУ 2-190 (газ).ФХП(н).Конц. Этана</ParameterFullName>
+            <FastToolsTag>ASDU_ESG.190.UNIT2.C2H6.hour_24_aggr.finalValue</FastToolsTag>
+            <EU>%</EU>
+            <HistoryGroup>MASDU_ESG_AGGR</HistoryGroup>
+        </DataRecord>
+        <DataRecord>
+            <id>C287DCCD977C0FA7E0530E93380AC24E</id>
+            <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Выход с УУ 2-190 (газ).ФХП(н).Конц. Пропана</ParameterFullName>
+            <FastToolsTag>ASDU_ESG.190.UNIT2.C3H8.hour_24_aggr.finalValue</FastToolsTag>
+            <EU>%</EU>
+            <HistoryGroup>MASDU_ESG_AGGR</HistoryGroup>
+        </DataRecord>
+        <DataRecord>
+            <id>C287D941F4A639B0E0530F93380A486E</id>
+            <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Выход с УУ 2-190 (газ).ФХП(н).Конц. Гексана и ВУВ
+            </ParameterFullName>
+            <FastToolsTag>ASDU_ESG.190.UNIT2.C6H14PLUS.hour_24_aggr.finalValue</FastToolsTag>
+            <EU>%</EU>
+            <HistoryGroup>MASDU_ESG_AGGR</HistoryGroup>
+        </DataRecord>
+        <DataRecord>
+            <id>C287EE3E8A875C5AE0530F93380ABA11</id>
+            <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Выход с УУ 2-190 (газ).ФХП(н).Конц. Изобутана
+            </ParameterFullName>
+            <FastToolsTag>ASDU_ESG.190.UNIT2.I_C4H10.hour_24_aggr.finalValue</FastToolsTag>
+            <EU>%</EU>
+            <HistoryGroup>MASDU_ESG_AGGR</HistoryGroup>
+        </DataRecord>
+        <DataRecord>
+            <id>C287D941F4CC39B0E0530F93380A486E</id>
+            <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Выход с УУ 2-190 (газ).ФХП(н).Конц. Изопентана
+            </ParameterFullName>
+            <FastToolsTag>ASDU_ESG.190.UNIT2.I_C5H12.hour_24_aggr.finalValue</FastToolsTag>
+            <EU>%</EU>
+            <HistoryGroup>MASDU_ESG_AGGR</HistoryGroup>
+        </DataRecord>
+        <DataRecord>
+            <id>C287DCCD97400FA7E0530E93380AC24E</id>
+            <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Выход с УУ 2-190 (газ).ФХП(н).Конц. n-Бутана
+            </ParameterFullName>
+            <FastToolsTag>ASDU_ESG.190.UNIT2.N2_C4H10.hour_24_aggr.finalValue</FastToolsTag>
+            <EU>%</EU>
+            <HistoryGroup>MASDU_ESG_AGGR</HistoryGroup>
+        </DataRecord>
+        <DataRecord>
+            <id>C287DCCD97700FA7E0530E93380AC24E</id>
+            <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Выход с УУ 2-190 (газ).ФХП(н).Конц. n-Пентана
+            </ParameterFullName>
+            <FastToolsTag>ASDU_ESG.190.UNIT2.N_C5H12.hour_24_aggr.finalValue</FastToolsTag>
+            <EU>%</EU>
+            <HistoryGroup>MASDU_ESG_AGGR</HistoryGroup>
+        </DataRecord>
+        <DataRecord>
+            <id>C287D941F4BE39B0E0530F93380A486E</id>
+            <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Выход с УУ 2-190 (газ).ФХП(н).Конц. Диоксида углерода
+            </ParameterFullName>
+            <FastToolsTag>ASDU_ESG.190.UNIT2.CO2.hour_24_aggr.finalValue</FastToolsTag>
+            <EU>%</EU>
+            <HistoryGroup>MASDU_ESG_AGGR</HistoryGroup>
+        </DataRecord>
+        <DataRecord>
+            <id>C287DCCD97340FA7E0530E93380AC24E</id>
+            <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Выход с УУ 2-190 (газ).ФХП(н).Конц. Азота</ParameterFullName>
+            <FastToolsTag>ASDU_ESG.190.UNIT2.N2.hour_24_aggr.finalValue</FastToolsTag>
+            <EU>%</EU>
+            <HistoryGroup>MASDU_ESG_AGGR</HistoryGroup>
+        </DataRecord>
+        <DataRecord>
+            <id>C287DCCD97640FA7E0530E93380AC24E</id>
+            <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Выход с УУ 2-190 (газ).ФХП(н).Конц. Неопентана
+            </ParameterFullName>
+            <FastToolsTag>ASDU_ESG.190.UNIT2.NEO_C5H12.hour_24_aggr.finalValue</FastToolsTag>
+            <EU>%</EU>
+            <HistoryGroup>MASDU_ESG_AGGR</HistoryGroup>
+        </DataRecord>
+        <DataRecord>
+            <id>C287D941F4B239B0E0530F93380A486E</id>
+            <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Выход с УУ 2-190 (газ).ФХП(н).Конц. Гелия</ParameterFullName>
+            <FastToolsTag>ASDU_ESG.190.UNIT2.HE.hour_24_aggr.finalValue</FastToolsTag>
+            <EU>%</EU>
+            <HistoryGroup>MASDU_ESG_AGGR</HistoryGroup>
+        </DataRecord>
+        <DataRecord>
+            <id>C287DCCD974C0FA7E0530E93380AC24E</id>
+            <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Выход с УУ 2-190 (газ).ФХП(н).Конц. Кислорода
+            </ParameterFullName>
+            <FastToolsTag>ASDU_ESG.190.UNIT2.O2.hour_24_aggr.finalValue</FastToolsTag>
+            <EU>ppm</EU>
+            <HistoryGroup>MASDU_ESG_AGGR</HistoryGroup>
+        </DataRecord>
+        <DataRecord>
+            <id>C287D941F50839B0E0530F93380A486E</id>
+            <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Выход с УУ 2-190 (газ).ФХП(н).Плотность при СУ
+            </ParameterFullName>
+            <FastToolsTag>ASDU_ESG.190.UNIT2.RO_ST.hour_24_aggr.finalValue</FastToolsTag>
+            <EU>кг/м3</EU>
+            <HistoryGroup>MASDU_ESG_AGGR</HistoryGroup>
+        </DataRecord>
+        <DataRecord>
+            <id>C287DCCD97580FA7E0530E93380AC24E</id>
+            <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Выход с УУ 2-190 (газ).ФХП(н).Конц. Меркаптана
+            </ParameterFullName>
+            <FastToolsTag>ASDU_ESG.190.UNIT2.RSH.hour_24_aggr.finalValue</FastToolsTag>
+            <EU>мг/м3</EU>
+            <HistoryGroup>MASDU_ESG_AGGR</HistoryGroup>
+        </DataRecord>
+        <DataRecord>
+            <id>C287D941F4F039B0E0530F93380A486E</id>
+            <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Выход с УУ 2-190 (газ).ФХП(н).Конц. Серы</ParameterFullName>
+            <FastToolsTag>ASDU_ESG.190.UNIT2.S.hour_24_aggr.finalValue</FastToolsTag>
+            <EU>мг/м3</EU>
+            <HistoryGroup>MASDU_ESG_AGGR</HistoryGroup>
+        </DataRecord>
+        <DataRecord>
+            <id>C287D941F4E439B0E0530F93380A486E</id>
+            <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Выход с УУ 2-190 (газ).ФХП(н).Конц. Сероводорода
+            </ParameterFullName>
+            <FastToolsTag>ASDU_ESG.190.UNIT2.H2S.hour_24_aggr.finalValue</FastToolsTag>
+            <EU>мг/м3</EU>
+            <HistoryGroup>MASDU_ESG_AGGR</HistoryGroup>
+        </DataRecord>
+        <DataRecord>
+            <id>8083CC3816977434E0530F93380A78CF</id>
+            <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Выход на Амурский ГХК (этан).Поставка продукта (тыс.м3)
+            </ParameterFullName>
+            <FastToolsTag>ASDU_ESG.7374.Q_V.hour_24_aggr.finalValue</FastToolsTag>
+            <EU>тыс. м3</EU>
+            <HistoryGroup>MASDU_ESG_AGGR</HistoryGroup>
+        </DataRecord>
+        <DataRecord>
+            <id>8083CC38168B7434E0530F93380A78CF</id>
+            <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Выход на Амурский ГХК (этан).Давление продукта
+            </ParameterFullName>
+            <FastToolsTag>ASDU_ESG.7374.P.hour_24_aggr.finalValue</FastToolsTag>
+            <EU>кгс/см2</EU>
+            <HistoryGroup>MASDU_ESG_AGGR</HistoryGroup>
+        </DataRecord>
+        <DataRecord>
+            <id>8085321266252B24E0530F93380AB563</id>
+            <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Выход на Амурский ГХК (этан).Температура продукта
+            </ParameterFullName>
+            <FastToolsTag>ASDU_ESG.7374.T.hour_24_aggr.finalValue</FastToolsTag>
+            <EU>C</EU>
+            <HistoryGroup>MASDU_ESG_AGGR</HistoryGroup>
+        </DataRecord>
+        <DataRecord>
+            <id>8085DB120C891D3FE0530F93380A7A31</id>
+            <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Выход на Своб. ТЭС (газ).Поставка продукта (тыс.м3)
+            </ParameterFullName>
+            <FastToolsTag>ASDU_ESG.8182.Q_V.hour_24_aggr.finalValue</FastToolsTag>
+            <EU>тыс. м3</EU>
+            <HistoryGroup>MASDU_ESG_AGGR</HistoryGroup>
+        </DataRecord>
+        <DataRecord>
+            <id>80860D0783797F08E0530F93380A7FAC</id>
+            <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Выход на Своб. ТЭС (газ).Давление продукта</ParameterFullName>
+            <FastToolsTag>ASDU_ESG.8182.P.hour_24_aggr.finalValue</FastToolsTag>
+            <EU>кгс/см2</EU>
+            <HistoryGroup>MASDU_ESG_AGGR</HistoryGroup>
+        </DataRecord>
+        <DataRecord>
+            <id>8085D3973D101826E0530E93380AE725</id>
+            <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Выход на Своб. ТЭС (газ).Температура продукта
+            </ParameterFullName>
+            <FastToolsTag>ASDU_ESG.8182.T.hour_24_aggr.finalValue</FastToolsTag>
+            <EU>C</EU>
+            <HistoryGroup>MASDU_ESG_AGGR</HistoryGroup>
+        </DataRecord>
+        <DataRecord>
+            <id>AD52BC45522617C7E0530F93380A4157</id>
+            <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Выход на ТСБ (БФ).Поставка продукта (т)</ParameterFullName>
+            <FastToolsTag>ASDU_ESG.BF.Q_M.hour_24_aggr.finalValue</FastToolsTag>
+            <EU>тонн</EU>
+            <HistoryGroup>MASDU_ESG_AGGR</HistoryGroup>
+        </DataRecord>
+        <DataRecord>
+            <id>AD52DD98A4CB066FE0530E93380A87E8</id>
+            <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Выход на ТСБ (ПФ).Поставка продукта (т)</ParameterFullName>
+            <FastToolsTag>ASDU_ESG.PF.Q_M.hour_24_aggr.finalValue</FastToolsTag>
+            <EU>тонн</EU>
+            <HistoryGroup>MASDU_ESG_AGGR</HistoryGroup>
+        </DataRecord>
+        <DataRecord>
+            <id>AD52DD98A4B5066FE0530E93380A87E8</id>
+            <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Выход на ТСБ (ПГФ).Поставка продукта (т)</ParameterFullName>
+            <FastToolsTag>ASDU_ESG.PGF.Q_M.hour_24_aggr.finalValue</FastToolsTag>
+            <EU>тонн</EU>
+            <HistoryGroup>MASDU_ESG_AGGR</HistoryGroup>
+        </DataRecord>
+        <DataRecord>
+            <id>AD5189EF44F261E6E0530F93380A2C74</id>
+            <ParameterFullName>ГП ПРБ Благовещенск.АмГПЗ.Выход в автоцистерны (гелий).Поставка продукта (т)
+            </ParameterFullName>
+            <FastToolsTag>ASDU_ESG.HELIUM.Q_M.hour_24_aggr.finalValue</FastToolsTag>
+            <EU>тонн</EU>
+            <HistoryGroup>MASDU_ESG_AGGR</HistoryGroup>
+        </DataRecord>
+
+
+    </DataRecords>
+</Setup>
+

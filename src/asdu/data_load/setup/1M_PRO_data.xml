@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Setup>
+    <Header>
+        <Sender id="ГП Переработка Благовещенск"/>
+        <Receiver id="М АСДУ ЕСГ"/>
+        <Comment>ГП Переработка Благовещенск. Отчет о работе (мес)</Comment>
+        <Scale>P1M</Scale>
+        <Location>P_BLG</Location>
+        <InformationType>PRO</InformationType>
+        <FullName>DMS</FullName>>
+    </Header>
+    <DataRecords>
+        <DataRecord>
+            <id>C0A04623D5707EDCE0530E93380A6E61</id>
+            <ParameterFullName>Ресурсы</ParameterFullName>
+            <FastToolsTag>ASDU_ESG.BALANCE.RESOURCES.month_aggr.finalValue</FastToolsTag>
+            <EU>тыс. м3</EU>
+            <HistoryGroup>MASDU_ESG_AGGR</HistoryGroup>
+        </DataRecord>
+        <DataRecord>
+            <id>BDA842CAF38E66AAE0530E93380AAD52</id>
+            <ParameterFullName>поступление сырьевого газа из МГ «Сила Сибири» через КУУ 1,2-192</ParameterFullName>
+            <FastToolsTag>ASDU_ESG.BALANCE.INPUT_192.month_aggr.finalValue</FastToolsTag>
+            <EU>тыс. м3</EU>
+            <HistoryGroup>MASDU_ESG_AGGR</HistoryGroup>
+        </DataRecord>
+
+        <DataRecord>
+            <id>C0A0493369957513E0530E93380A8B39</id>
+            <ParameterFullName>Распределение</ParameterFullName>
+            <FastToolsTag>ASDU_ESG.BALANCE.DISTRIBUTION.month_aggr.finalValue</FastToolsTag>
+            <EU>тыс. м3</EU>
+            <HistoryGroup>MASDU_ESG_AGGR</HistoryGroup>
+        </DataRecord>
+        <DataRecord>
+            <id>BDB9825048D840A7E0530E93380AAD38</id>
+            <ParameterFullName>поставка на Свободненскую ТЭС</ParameterFullName>
+            <FastToolsTag>ASDU_ESG.BALANCE.TO_TES.month_aggr.finalValue</FastToolsTag>
+            <EU>тыс. м3</EU>
+            <HistoryGroup>MASDU_ESG_AGGR</HistoryGroup>
+        </DataRecord>
+        <DataRecord>
+            <id>BDBA9B2D46E24CA4E0530F93380A027B</id>
+            <ParameterFullName>собственные технологические нужды</ParameterFullName>
+            <FastToolsTag>ASDU_ESG.BALANCE.OWNNEEDS.month_aggr.finalValue</FastToolsTag>
+            <EU>тыс. м3</EU>
+            <HistoryGroup>MASDU_ESG_AGGR</HistoryGroup>
+        </DataRecord>
+        <DataRecord>
+            <id>C04EE60D45FC4B09E0530E93380A33F3</id>
+            <ParameterFullName>в т.ч. топливный ВД</ParameterFullName>
+            <FastToolsTag>ASDU_ESG.BALANCE.FUELGASHPRESS.month_aggr.finalValue</FastToolsTag>
+            <EU>тыс. м3</EU>
+            <HistoryGroup>MASDU_ESG_AGGR</HistoryGroup>
+        </DataRecord>
+        <DataRecord>
+            <id>C08F153DB94B0161E0530F93380A52E7</id>
+            <ParameterFullName>оседание на ГПЗ (продукция)</ParameterFullName>
+            <FastToolsTag>ASDU_ESG.BALANCE.SEDIMENT.month_aggr.finalValue</FastToolsTag>
+            <EU>тыс. м3</EU>
+            <HistoryGroup>MASDU_ESG_AGGR</HistoryGroup>
+        </DataRecord>
+        <DataRecord>
+            <id>BDB7B2BFD36B4485E0530E93380A28F7</id>
+            <ParameterFullName>поставка товарного газа в МГ «Сила Сибири» через КУУ 1,2-190</ParameterFullName>
+            <FastToolsTag>ASDU_ESG.BALANCE.OUTPUT_190.month_aggr.finalValue</FastToolsTag>
+            <EU>тыс. м3</EU>
+            <HistoryGroup>MASDU_ESG_AGGR</HistoryGroup>
+        </DataRecord>
+        <DataRecord>
+            <id>BDE2E5301BAD11CFE0530F93380A386B</id>
+            <ParameterFullName>гелий жидкий</ParameterFullName>
+            <FastToolsTag>ASDU_ESG.BALANCE.HELIUM.month_aggr.finalValue</FastToolsTag>
+            <EU>тонн</EU>
+            <HistoryGroup>MASDU_ESG_AGGR</HistoryGroup>
+        </DataRecord>
+        <DataRecord>
+            <id>C079CF5A6DE97D2DE0530E93380A0681</id>
+            <ParameterFullName>этановая фракция</ParameterFullName>
+            <FastToolsTag>ASDU_ESG.BALANCE.ETHANE.month_aggr.finalValue</FastToolsTag>
+            <EU>тонн</EU>
+            <HistoryGroup>MASDU_ESG_AGGR</HistoryGroup>
+        </DataRecord>
+        <DataRecord>
+            <id>C0681B2170C512EAE0530E93380A3DBF</id>
+            <ParameterFullName>ПФ</ParameterFullName>
+            <FastToolsTag>ASDU_ESG.BALANCE.PF.month_aggr.finalValue</FastToolsTag>
+            <EU>тонн</EU>
+            <HistoryGroup>MASDU_ESG_AGGR</HistoryGroup>
+        </DataRecord>
+        <DataRecord>
+            <id>C068957B943E7A93E0530F93380A8B07</id>
+            <ParameterFullName>БФ</ParameterFullName>
+            <FastToolsTag>ASDU_ESG.BALANCE.BF.month_aggr.finalValue</FastToolsTag>
+            <EU>тонн</EU>
+            <HistoryGroup>MASDU_ESG_AGGR</HistoryGroup>
+        </DataRecord>
+        <DataRecord>
+            <id>C068DBEC5A5F3273E0530E93380AD804</id>
+            <ParameterFullName>ПБТ</ParameterFullName>
+            <FastToolsTag>ASDU_ESG.BALANCE.PBT.month_aggr.finalValue</FastToolsTag>
+            <EU>тонн</EU>
+            <HistoryGroup>MASDU_ESG_AGGR</HistoryGroup>
+        </DataRecord>
+        <DataRecord>
+            <id>C068DBEC5A6B3273E0530E93380AD804</id>
+            <ParameterFullName>ПГФ</ParameterFullName>
+            <FastToolsTag>ASDU_ESG.BALANCE.PGF.month_aggr.finalValue</FastToolsTag>
+            <EU>тонн</EU>
+            <HistoryGroup>MASDU_ESG_AGGR</HistoryGroup>
+        </DataRecord>
+        <DataRecord>
+            <id>C04F63260D5D70A6E0530E93380ACF0A</id>
+            <ParameterFullName>разгазация ШФЛУ</ParameterFullName>
+            <FastToolsTag>ASDU_ESG.BALANCE.DEGASS_SHFLU.hour_24_aggr.finalValue</FastToolsTag>
+            <EU>тыс. м3</EU>
+            <HistoryGroup>MASDU_ESG_AGGR</HistoryGroup>
+        </DataRecord>
+    </DataRecords>
+</Setup>
+
