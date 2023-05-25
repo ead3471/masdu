@@ -24,8 +24,8 @@ These reports are then sent to a specified FTP server.
 
 4. Install requirements:
     ```
-       pip install -r requirements.txt
-       ```  
+    pip install -r requirements.txt
+    ```  
 
 4. Add the location of dss.pyd (distributed with FAST/TOOLS) to the PYTHONPATH.
 
