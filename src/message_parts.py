@@ -13,6 +13,7 @@ import pytz
 
 from ft_history import FastToolsItem
 import dateutil.parser
+import os
 
 messages_timezone = pytz.timezone("Europe/Moscow")
 
@@ -32,6 +33,11 @@ class InformationType(Enum):
 
     @classmethod
     def get_from_file_name(cls, file_name):
+        """
+        get message information type from given file
+        :param file_name: message setup file name
+        :return: InformationType
+        """
         for record in InformationType:
             if record.value in file_name:
                 return record
@@ -40,7 +46,9 @@ class InformationType(Enum):
 
 
 class RecordType(Enum):
-    """Тип отчетного файла(рв, 2h, 24h)"""
+    """
+    Record file type
+    """
     REAL = 'RV'
     MIN_5 = 'PT5M'
     HOUR_1 = 'PT1H'
@@ -56,25 +64,28 @@ class RecordType(Enum):
         logging.warning(f"Not found record type for file{file_name}, return MIN_5")
         return RecordType.MIN_5
 
-    def is_time_to_send_file(self, info_type: InformationType):
+    def is_time_to_send_file(self, info_type: InformationType) -> bool:
         """
-        Проверяет, настало ли время отправки файла. Для всех кроме балансовых  -уходят как только пояились, Балансовые улетают только в 12
-        :return:
-
-        :param info_type:
-        :return:
+        Checks if it's time to send the file. All files except InformationType.UB are sent as soon as they are created.
+        InformationType.UB is sent at 12:00
+        :param info_type: message information type.
+        :return: true if its time to send a file
         """
         if self is RecordType.DAY and info_type is InformationType.BALANCE:
             current_time = datetime.now().astimezone(messages_timezone)
             return current_time.hour >= 12
 
         if self is RecordType.MONTH and info_type is InformationType.PRODUCTION:
-            "Предпоглагается, что отчетный файл не будет создан раньше чем 1 числа месяца, иначе он сразу улетит"
             current_time = datetime.now().astimezone(messages_timezone)
             return current_time.hour >= 10 and current_time.day >= 6
         return True
 
     def get_local_store_folder(self, info_type=InformationType.REGIME) -> str:
+        """
+        Returns each file information type store folder
+        :param info_type:
+        :return: path to store folder
+        """
         if info_type is InformationType.REGIME:
             return self.name
 
@@ -90,8 +101,14 @@ class RecordType(Enum):
     def get_archive_retrieve_time(self, time_stamp: datetime,
                                   info_type: InformationType = InformationType.REGIME) -> datetime:
         """
-        :param time_stamp: Current time
-        :return: time there archive point exist for given
+        Returns history retrieve timestamp for given file information type and given timestamp.
+        For example:
+         - current time = 12:03
+         - message type = PT5M
+         - function will return 12:00
+        :param time_stamp: timestamp for data retrieve
+        :param info_type: file information type
+        :return:
         """
 
         result_time_stamp = time_stamp.replace(microsecond=0)
@@ -122,9 +139,11 @@ class RecordType(Enum):
     def get_last_store_time(self, time_stamp: datetime,
                             info_type: InformationType = InformationType.REGIME) -> datetime:
         """
+        Returns last time when message should have been created. E.g. for mode two hours: time_stamp=10:30 -> return = 10:00
+        Returns last time wh
         :param time_stamp:
         :param info_type:
-        :return: Возвращает последнее время когда надо было создавать сообщение. Например для режимных двухчасовок: time_stamp=10:30 -> return = 10:00
+        :return: Last time when message should have been created
         """
         time_stamp = time_stamp.astimezone(messages_timezone).replace(microsecond=0)
         if self is RecordType.REAL:
@@ -160,13 +179,15 @@ class RecordType(Enum):
     def get_ref_time_from_store_time(self, message_store_time: datetime,
                                      info_type: InformationType = InformationType.REGIME) -> datetime:
         """
-        :param info_type:
+        :param info_type: message info type
         :param message_store_time: Время создания сообщения
-        :return: Возвращает референс тайм для текущего времени cохранения файла. Референс тайм начиная с суточных данных  - начало периода аггрегации. Для меньше суточных - на момент закрытия аггрегации.
-        Например time_stamp=15.01.22 10:00.
-        Для режимны двухчасовок  -> store_time=10:00, ref_time=10:00.
-        Для  балансовых суточных -> store_time = 15.01.22 12:00, ref_time=14.01.22 10:00.
-        Для  режимных суточных -> store_time = 15.01.22 10:00, ref_time=14.01.22 10:00.
+        :return: Returns the reference time for the current file save time.
+        The reference time from daily data is the beginning of the aggregation period.
+        For less than daily data - at the time of closing the aggregation.
+        For example time_stamp=15.01.22 10:00.
+        For two-hourly data -> store_time=10:00, ref_time=10:00.
+        For balance daily -> store_time=15.01.22 12:00, ref_time=14.01.22 10:00.
+        For balance regime -> store_time = 15.01.22 10:00, ref_time=14.01.22 10:00.
         """
 
         if self is RecordType.REAL:
@@ -192,10 +213,10 @@ class RecordType(Enum):
 
     def get_next_store_time(self, time_stamp: datetime, info_type=InformationType.REGIME) -> datetime:
         """
-        Возвращает следующее время закрытия архива
+        Returns next file creation time
         :param info_type:
         :param time_stamp:
-        :return: time then next archive will be created. Need for files creation
+        :return: Time then next archive will be created. Need for files creation
         """
         if self is RecordType.MIN_5 or self is RecordType.REAL:
             return self.get_last_store_time(time_stamp, info_type) + relativedelta(minutes=5)
@@ -214,6 +235,7 @@ class RecordType(Enum):
 
     def get_prev_store_time(self, time_stamp: datetime, info_type: InformationType) -> datetime:
         """
+        Returns previous file store time for the given timestamp
         :param time_stamp:
         :return: previous store time for given timestamp
         """
@@ -269,7 +291,7 @@ class RecordType(Enum):
 
 
 class DataRecord:
-    """Запись о конкретном значении"""
+    """Concrete value record in report file"""
     time_format = '%Y-%m-%dT%H:%M%S%z'
 
     formats = {
@@ -325,28 +347,42 @@ class DataRecord:
         """update current value with last value from FT"""
         try:
             self.fast_tools_item.read_current_value(ft_conn=ft_conn, value_dataset=value_dataset)
-        except Exception:
-            logging.exception('Error read current value for ' + self.fast_tools_item.item_name)
+        except BaseException as ex:
+            logging.exception(f'Error read current value for {self.fast_tools_item.item_name}')
 
     def read_aggr_history_value(self, ft_conn, time_stamp: datetime):
-        """update value with value from history"""
+        """
+        Updates self value with value from history
+        :param ft_conn: dss connection
+        :param time_stamp: retrieve timestamp
+        :return: None
+        """
         try:
             self.fast_tools_item.read_history_aggregated_value(ft_conn=ft_conn, time_stamp=time_stamp,
                                                                limit_in_seconds=60)
-        except Exception:
+        except BaseException:
             logging.exception(
-                'Error read aggr history value for ' + str(
-                    self.fast_tools_item) + 'at time = ' + time_stamp.isoformat())
+                f'Error read aggr history value for {self.fast_tools_item}  at time = {time_stamp.isoformat()}')
 
     def read_rv_history_value(self, ft_conn, time_stamp: datetime):
-        """update value with value from history"""
+        """
+        Update value with value from realtime history group
+        :param ft_conn: dss connection
+        :param time_stamp: retrieve timestamp
+        :return: None
+        """
         try:
             self.fast_tools_item.read_history_rv_value(ft_conn=ft_conn, time_stamp=time_stamp)
-        except Exception:
+        except BaseException:
             logging.exception(
-                'Error read rv history value for ' + str(self.fast_tools_item) + 'at time = ' + time_stamp.isoformat())
+                f'Error read rv history value for {self.fast_tools_item} at time = {time_stamp.isoformat()}')
 
     def get_full_xml_representation(self, show_time_stamp=True) -> Element:
+        """
+        Returns the full xml representation of current object
+        :param show_time_stamp: if true, the element with the time stamp will be added
+        :return: instance xml representation
+        """
         # < DataSection >
         # < Identifier type = "ASDU_ESG" > 8085DB120C891D3FE0530F93380A7A31 < / Identifier >
         # < ParameterFullName > ГП ПРБ Благовещенск.АмГПЗ.Выход на Своб.ТЭС(газ).Поставка продукта(тыс.м3) < / ParameterFullName >
@@ -364,6 +400,11 @@ class DataRecord:
         return root
 
     def get_short_xml_representation(self, show_time_stamp=True) -> Element:
+        """
+           Returns the short xml representation of current object
+           :param show_time_stamp: if true, the element with the time stamp will be added
+           :return: instance xml representation
+       """
         # < DataSection >
         # < Identifier type = "ASDU_ESG" > 8085DB120C891D3FE0530F93380A7A31 < / Identifier >
         # < Value > 990 < / Value >
@@ -403,7 +444,11 @@ class DataRecord:
 
     @classmethod
     def get_from_element(cls, data_record_element: Element) -> DataRecord:
-        """Create instance from xml element"""
+        """
+        Creates instance from xml element
+        :param data_record_element:
+        :return: DataRecord
+        """
         # < DataRecord >
         # < id > 89F0B0EB953E2AF2E0530F93380A919E < / id >
         # < Comment > Давление газа на входе < / Comment >
@@ -431,6 +476,9 @@ class DataRecord:
 
 
 class Header:
+    """
+    Report file header object
+    """
     time_format = '%Y-%m-%dT%H:%M:%S%z'
     """Заголовок сообщения"""
 
@@ -457,6 +505,9 @@ class Header:
         self.info_type = info_type
 
     def get_short_xml_representation(self) -> Element:
+        """
+        :return: Short xml representation of object instance
+        """
         # <HeaderSection>
         #      <Sender id="ГП Переработка Благовещенск" />
         #       <Receiver id="М АСДУ ЕСГ" />
@@ -501,6 +552,9 @@ class Header:
         return root
 
     def get_full_xml_representation(self):
+        """
+        :return: Full xml representation of object instance
+        """
         root = self.get_short_xml_representation()
         comment_element = SubElement(root, 'Comment')
         comment_element.text = self.comment
@@ -508,7 +562,11 @@ class Header:
 
     @classmethod
     def get_from_element(cls, header_element: Element) -> Header:
-        """"""
+        """
+        Creates Header object from xml element
+        :param header_element:
+        :return: Header
+        """
         #   < HeaderSection >
         #     < Sender id = "ГП Переработка Благовещенск" / >
         #     < Receiver id = "М АСДУ ЕСГ" / >
@@ -530,6 +588,11 @@ class Header:
 
     @classmethod
     def get_from_message_file(cls, data_file_name: str) -> Header:
+        """
+        Creates Header instance from setup file
+        :param data_file_name: setup message file
+        :return: Header
+        """
         message = xml.etree.ElementTree.parse(data_file_name)
         header_element = message.find('HeaderSection')
         header = Header.get_from_element(header_element)
@@ -539,6 +602,10 @@ class Header:
 
 
 class Message:
+    """
+    Whole report message object
+    """
+
     def __init__(self, header: Header, data: list[DataRecord]):
         self.header = header
         self.data_records = data
@@ -551,6 +618,11 @@ class Message:
 
     @classmethod
     def get_from_setup_file(cls, file_name: str) -> Message:
+        """
+        Creates instance from given setup file
+        :param file_name:
+        :return: Message instance
+        """
         setup_xml = xml.etree.ElementTree.parse(file_name)
         header_element = Header.get_from_element(setup_xml.find("Header"))
         data_records_setup = setup_xml.find('DataRecords').findall('DataRecord')
@@ -563,8 +635,13 @@ class Message:
     def get_store_time(self) -> datetime:
         return self.header.generated_at
 
-    def update_by_current_values(self, ft_connection):
-        """Update all items by fast tools last value"""
+    def __update_by_current_values(self, ft_connection):
+        """
+        Update all items in message by fast tools last value
+        :param ft_connection: dss connection
+        :return: None
+        """
+
         data_set = None
         try:
             data_set = dss.openDataset(ft_connection, 'ITEM_VAL', ['NAME', 'ITEM_VALUE', 'UPDATE_TIME'], 'r')
@@ -576,65 +653,90 @@ class Message:
             if data_set is not None:
                 dss.closeDataset(ft_connection, data_set)
 
-    def update_by_rv_history(self, time_stamp: datetime, ft_connection):
-        """Update all items from history at specified time_stamp"""
+    def __update_by_rv_history(self, time_stamp: datetime, ft_connection):
+        """
+        Update all items from history at specified time_stamp
+        :param time_stamp:
+        :param ft_connection:
+        :return: None
+        """
+
         try:
             for data_record in self.data_records:
                 data_record.read_rv_history_value(ft_conn=ft_connection, time_stamp=time_stamp)
-        except Exception:
+        except BaseException:
             logging.exception(
-                'Read real values history exception for ' + self.header.template_id)
+                f'Read real values history exception for {self.header.template_id}')
 
-    def update_by_aggr_history(self, time_stamp: datetime, ft_connection):
-        """Update all items from history at specified time_stamp"""
+    def __update_by_aggr_history(self, time_stamp: datetime, ft_connection):
+        """
+        Update all items from history at specified time_stamp
+        :param time_stamp: retrieve data timestamp
+        :param ft_connection: dss connection
+        :return: None
+        """
         try:
             for data_record in self.data_records:
                 data_record.read_aggr_history_value(ft_conn=ft_connection, time_stamp=time_stamp)
-        except Exception:
-            logging.exception('Read aggregation history exception for ' + self.header.template_id)
+        except BaseException:
+            logging.exception(f'Read aggregation history exception for {self.header.template_id}')
 
     def prepare_message(self, message_store_time: datetime, ft_connection):
         archive_retrieve_time = self.header.scale.get_archive_retrieve_time(message_store_time, self.header.info_type)
-        logging.debug('Prepare message: ' + self.header.template_id + ' timestamp=' + message_store_time.isoformat())
+        logging.info(f'Prepare message: {self.header.template_id} timestamp={message_store_time.isoformat()}')
         if self.header.scale == RecordType.REAL:
             time_stamp_now = datetime.now().astimezone()
-            logging.debug('now and time_stamp delta = ' + str((time_stamp_now - message_store_time).total_seconds()))
+            logging.info(f'Now and time_stamp delta = {(time_stamp_now - message_store_time).total_seconds()}')
             if time_stamp_now - archive_retrieve_time < timedelta(seconds=300):
                 self.header.ref_time = self.header.scale.get_ref_time_from_store_time(message_store_time,
                                                                                       self.header.info_type)
-                logging.debug('Update by current values. Ref_time = ' + self.header.ref_time.isoformat())
-                self.update_by_current_values(ft_connection)
+                logging.info(f'Update by current values. Ref_time = {self.header.ref_time.isoformat()}')
+                self.__update_by_current_values(ft_connection)
             else:
                 self.header.ref_time = self.header.scale.get_ref_time_from_store_time(message_store_time,
                                                                                       self.header.info_type)
-                logging.debug('Update by history rv values. Ref_time = ' + self.header.ref_time.isoformat())
-                self.update_by_rv_history(archive_retrieve_time, ft_connection)
+                logging.info(f'Update by history rv values. Ref_time = {self.header.ref_time.isoformat()}')
+                self.__update_by_rv_history(archive_retrieve_time, ft_connection)
         else:
             retrieve_history_timestamp = self.header.scale.get_archive_retrieve_time(message_store_time,
                                                                                      self.header.info_type)
-            self.header.ref_time = self.header.scale.get_ref_time_from_store_time(message_store_time,self.header.info_type)
-            logging.debug(
+            self.header.ref_time = self.header.scale.get_ref_time_from_store_time(message_store_time,
+                                                                                  self.header.info_type)
+            logging.info(
                 f'Update by history aggr values:{self.header.template_id} '
                 f'\ntime_stamp = {message_store_time.isoformat()} '
                 f'\nref_time = {self.header.ref_time.isoformat()} '
                 f'\narchive_retr_time = {retrieve_history_timestamp.astimezone().isoformat()} ')
-            self.update_by_aggr_history(retrieve_history_timestamp, ft_connection)
+            self.__update_by_aggr_history(retrieve_history_timestamp, ft_connection)
 
     def get_file_name(self) -> str:
-        # G_PRBB.PT2H.RT.V1_2021_02_17_22_01_04.xml
+        """
+        Creates store file name for current Message. Example: G_PRBB.PT2H.RT.V1_2021_02_17_22_01_04.xml
+        :return:
+        """
         data_format = '%Y_%m_%d_%H_%M_%S.xml'
         return self.header.template_id + '_' + self.header.generated_at.astimezone(messages_timezone).strftime(
             data_format)
 
     def write_to_xml_file(self, file_name: str = None, messages_root_folder: str = '',
                           generated_at: datetime = datetime.now().astimezone(), short_representation_mode=True):
+        """
+        Writes current message to the xml file
+        :param file_name: store file name
+        :param messages_root_folder: store root folder
+        :param generated_at: generation timestamp
+        :param short_representation_mode: if true short xml representation will be used
+        :return: None
+        """
         self.header.generated_at = generated_at
 
         if file_name is None:
             file_name = self.get_file_name()
-        file_name = self.get_local_storage_message_folder(messages_root_folder) + '/' + file_name
 
-        logging.debug('Write message ' + self.header.template_id + ' to file: ' + file_name)
+        os.makedirs(self.get_local_storage_message_folder(messages_root_folder), exist_ok=True)
+        file_name = os.path.join(self.get_local_storage_message_folder(messages_root_folder), file_name)
+
+        logging.info(f'Write message {self.header.template_id} to file: {file_name}')
         root = Element('BusinessMessage')
         if short_representation_mode:
             root.append(self.header.get_short_xml_representation())
@@ -654,6 +756,11 @@ class Message:
 
     @classmethod
     def get_store_time_from_file(cls, message_file) -> datetime:
+        """
+        Extracts store time from given message file
+        :param message_file:
+        :return: file store time
+        """
         message = xml.etree.ElementTree.parse(message_file)
         header_element = message.find('HeaderSection')
 
@@ -662,7 +769,7 @@ class Message:
                 ref_time_element_value = header_element.find('Generated').get('at')
                 return dateutil.parser.isoparse(ref_time_element_value)
             except Exception:
-                logging.error('Error parse message ref_time:' + str(xml.etree.ElementTree.tostring(header_element)))
+                logging.error(f'Error parse message ref_time:{xml.etree.ElementTree.tostring(header_element)}')
         else:
             return datetime.fromtimestamp(0)
 
@@ -671,7 +778,7 @@ class Message:
         return RecordType.get_from_file_name(file_name).get_remote_storage_folder()
 
     @classmethod
-    def is_time_to_send_message_file_ftp(cls, message_file_name: str):
+    def is_time_to_send_message_file_to_ftp(cls, message_file_name: str):
         message_record_type = RecordType.get_from_file_name(message_file_name)
         message_info_type = InformationType.get_from_file_name(message_file_name)
         return message_record_type.is_time_to_send_file(message_info_type)
@@ -680,7 +787,11 @@ class Message:
         return f'{messages_location}/{self.header.scale.get_local_store_folder(self.header.info_type)}'
 
     def get_last_stored_message_store_time(self, messages_root_folder='data') -> datetime:
-        """Returns reftime of last message, limited by message history deep"""
+        """
+        Returns reftime of last message, limited by message history dee
+        :param messages_root_folder:
+        :return:
+        """
 
         message_files = glob.glob(
             f'{self.get_local_storage_message_folder(messages_root_folder)}/{self.header.template_id}*.xml')
@@ -696,4 +807,3 @@ class Message:
 
     def is_prev_message_exist(self, message_time_stamp: datetime, last_message_time_stamp: datetime) -> bool:
         return self.header.scale.get_prev_store_time(message_time_stamp) <= last_message_time_stamp
-
