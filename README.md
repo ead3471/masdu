@@ -17,10 +17,16 @@ These reports are then sent to a specified FTP server.
    ```
    git clone git@github.com:ead3471/masdu.git
    ```
-3. Create a virtual environment with Python 2.7:
+3. Create a virtual environment with Python 3.7:
    ```
-   virtualenv -p `which python2.7` venv
+   virtualenv -p `which python3.7` venv
    ```
+
+4. Install requirements:
+    ```
+       pip install -r requirements.txt
+       ```  
+
 4. Add the location of dss.pyd (distributed with FAST/TOOLS) to the PYTHONPATH.
 
 5. At this moment script tuned to work with distinct FAST/TOOLS project. 
